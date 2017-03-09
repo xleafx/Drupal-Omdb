@@ -1,0 +1,1675 @@
+-- Logs begin at пн 2017-02-27 09:10:07 EET, end at ср 2017-03-01 12:11:43 EET. --
+лют 28 16:41:46 edge-N68S3B compiz[2224]: gkr-pam: unlocked login keyring
+лют 28 17:00:12 edge-N68S3B dhclient[1525]: DHCPREQUEST of 10.10.0.91 on enp3s0 to 10.10.1.2 port 67 (xid=0x2c06f7bc)
+лют 28 17:00:12 edge-N68S3B dhclient[1525]: DHCPACK of 10.10.0.91 from 10.10.1.2
+лют 28 17:00:12 edge-N68S3B dhclient[1525]: bound to 10.10.0.91 -- renewal in 16261 seconds.
+лют 28 17:00:12 edge-N68S3B NetworkManager[845]: <info>  [1488294012.2536]   address 10.10.0.91
+лют 28 17:00:12 edge-N68S3B NetworkManager[845]: <info>  [1488294012.2543]   plen 24 (255.255.255.0)
+лют 28 17:00:12 edge-N68S3B NetworkManager[845]: <info>  [1488294012.2543]   gateway 10.10.0.1
+лют 28 17:00:12 edge-N68S3B NetworkManager[845]: <info>  [1488294012.2543]   server identifier 10.10.1.2
+лют 28 17:00:12 edge-N68S3B NetworkManager[845]: <info>  [1488294012.2544]   lease time 36000
+лют 28 17:00:12 edge-N68S3B NetworkManager[845]: <info>  [1488294012.2544]   nameserver '10.10.0.1'
+лют 28 17:00:12 edge-N68S3B NetworkManager[845]: <info>  [1488294012.2549]   domain name 'local.drupalcompany.com'
+лют 28 17:00:12 edge-N68S3B NetworkManager[845]: <info>  [1488294012.2562]   wins '10.10.0.1'
+лют 28 17:00:12 edge-N68S3B NetworkManager[845]: <info>  [1488294012.2574] dhcp4 (enp3s0): state changed bound -> bound
+лют 28 17:00:12 edge-N68S3B dbus[792]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'[0m
+лют 28 17:00:12 edge-N68S3B systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: Unit NetworkManager-dispatcher.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-dispatcher.service has begun starting up.
+лют 28 17:00:12 edge-N68S3B dbus[792]: [0;1;39m[system] Successfully activated service 'org.freedesktop.nm_dispatcher'[0m
+лют 28 17:00:12 edge-N68S3B systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: Unit NetworkManager-dispatcher.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-dispatcher.service has finished starting up.
+-- 
+-- The start-up result is done.
+лют 28 17:00:12 edge-N68S3B nm-dispatcher[23071]: req:1 'dhcp4-change' [enp3s0]: new request (1 scripts)
+лют 28 17:00:12 edge-N68S3B nm-dispatcher[23071]: req:1 'dhcp4-change' [enp3s0]: start running ordered scripts...
+лют 28 17:00:24 edge-N68S3B compiz[2224]: gkr-pam: unlocked login keyring
+лют 28 17:01:02 edge-N68S3B pulseaudio[2244]: [0;1;31m[pulseaudio] shm.c: shm_open() failed: No such file or directory[0m
+лют 28 17:01:02 edge-N68S3B pulseaudio[2244]: [0;1;31m[pulseaudio] shm.c: shm_open() failed: No such file or directory[0m
+лют 28 17:05:01 edge-N68S3B CRON[23162]: pam_unix(cron:session): session opened for user edge by (uid=0)
+лют 28 17:05:01 edge-N68S3B CRON[23163]: (edge) CMD (curl http://www.films.loc/cron/PUUXD3jI0OZBrsmpsqW3YssSai1son8lmkmE38cqW7yYL47aIBe25GHNDhnRwMisHsAn_3fPcw)
+лют 28 17:05:01 edge-N68S3B CRON[23162]: (CRON) info (No MTA installed, discarding output)
+лют 28 17:05:01 edge-N68S3B CRON[23162]: pam_unix(cron:session): session closed for user edge
+лют 28 17:09:01 edge-N68S3B CRON[23248]: pam_unix(cron:session): session opened for user root by (uid=0)
+лют 28 17:09:01 edge-N68S3B CRON[23249]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+лют 28 17:09:01 edge-N68S3B CRON[23248]: pam_unix(cron:session): session closed for user root
+лют 28 17:09:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+лют 28 17:09:38 edge-N68S3B sessionclean[23257]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+лют 28 17:09:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+лют 28 17:10:01 edge-N68S3B CRON[23313]: pam_unix(cron:session): session opened for user edge by (uid=0)
+лют 28 17:10:01 edge-N68S3B CRON[23314]: (edge) CMD (curl http://www.learn.loc/cron/6WIRz4G0PcR2xYuaL0e3rYPG9-XyH31w_34NW1b8Icm4L0W5pWcLIg7DLpBxjmSUcBvpg7_G4Q)
+лют 28 17:10:01 edge-N68S3B CRON[23313]: (CRON) info (No MTA installed, discarding output)
+лют 28 17:10:01 edge-N68S3B CRON[23313]: pam_unix(cron:session): session closed for user edge
+лют 28 17:17:01 edge-N68S3B CRON[23479]: pam_unix(cron:session): session opened for user root by (uid=0)
+лют 28 17:17:01 edge-N68S3B CRON[23480]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+лют 28 17:17:01 edge-N68S3B CRON[23479]: pam_unix(cron:session): session closed for user root
+лют 28 17:17:26 edge-N68S3B systemd[1]: snapd.refresh.timer: Adding 3h 23min 42.096862s random time.
+лют 28 17:22:41 edge-N68S3B systemd[1]: Starting Daily apt activities...
+-- Subject: Unit apt-daily.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apt-daily.service has begun starting up.
+лют 28 17:22:42 edge-N68S3B systemd[1]: Started Daily apt activities.
+-- Subject: Unit apt-daily.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apt-daily.service has finished starting up.
+-- 
+-- The start-up result is done.
+лют 28 17:22:42 edge-N68S3B systemd[1]: apt-daily.timer: Adding 5h 13min 31.958718s random time.
+лют 28 17:22:42 edge-N68S3B systemd[1]: apt-daily.timer: Adding 11h 29min 59.072816s random time.
+лют 28 17:26:13 edge-N68S3B unix_chkpwd[23736]: [0;1;39mpassword check failed for user (edge)[0m
+лют 28 17:26:13 edge-N68S3B compiz[2224]: [0;1;39mpam_unix(unity:auth): authentication failure; logname= uid=1000 euid=1000 tty= ruser= rhost=  user=edge[0m
+лют 28 17:26:18 edge-N68S3B compiz[2224]: gkr-pam: unlocked login keyring
+лют 28 17:39:01 edge-N68S3B CRON[24270]: pam_unix(cron:session): session opened for user root by (uid=0)
+лют 28 17:39:01 edge-N68S3B CRON[24271]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+лют 28 17:39:01 edge-N68S3B CRON[24270]: pam_unix(cron:session): session closed for user root
+лют 28 17:39:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+лют 28 17:39:38 edge-N68S3B sessionclean[24280]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+лют 28 17:39:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+лют 28 18:05:01 edge-N68S3B CRON[25253]: pam_unix(cron:session): session opened for user edge by (uid=0)
+лют 28 18:05:01 edge-N68S3B CRON[25254]: (edge) CMD (curl http://www.films.loc/cron/PUUXD3jI0OZBrsmpsqW3YssSai1son8lmkmE38cqW7yYL47aIBe25GHNDhnRwMisHsAn_3fPcw)
+лют 28 18:05:01 edge-N68S3B CRON[25253]: (CRON) info (No MTA installed, discarding output)
+лют 28 18:05:01 edge-N68S3B CRON[25253]: pam_unix(cron:session): session closed for user edge
+лют 28 18:09:01 edge-N68S3B CRON[25495]: pam_unix(cron:session): session opened for user root by (uid=0)
+лют 28 18:09:01 edge-N68S3B CRON[25496]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+лют 28 18:09:01 edge-N68S3B CRON[25495]: pam_unix(cron:session): session closed for user root
+лют 28 18:09:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+лют 28 18:09:38 edge-N68S3B sessionclean[25530]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+лют 28 18:09:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+лют 28 18:10:01 edge-N68S3B CRON[25609]: pam_unix(cron:session): session opened for user edge by (uid=0)
+лют 28 18:10:01 edge-N68S3B CRON[25610]: (edge) CMD (curl http://www.learn.loc/cron/6WIRz4G0PcR2xYuaL0e3rYPG9-XyH31w_34NW1b8Icm4L0W5pWcLIg7DLpBxjmSUcBvpg7_G4Q)
+лют 28 18:10:01 edge-N68S3B CRON[25609]: (CRON) info (No MTA installed, discarding output)
+лют 28 18:10:01 edge-N68S3B CRON[25609]: pam_unix(cron:session): session closed for user edge
+лют 28 18:17:01 edge-N68S3B CRON[26259]: pam_unix(cron:session): session opened for user root by (uid=0)
+лют 28 18:17:01 edge-N68S3B CRON[26260]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+лют 28 18:17:01 edge-N68S3B CRON[26259]: pam_unix(cron:session): session closed for user root
+лют 28 18:23:35 edge-N68S3B org.gtk.vfs.Daemon[1946]: [0;1;39m** (process:29659): WARNING **: Couldn't create directory monitor on smb://x-gnome-default-workgroup/. Error: The specified location is not mounted[0m
+лют 28 18:26:56 edge-N68S3B compiz[2224]: gkr-pam: unlocked login keyring
+лют 28 18:39:01 edge-N68S3B CRON[27104]: pam_unix(cron:session): session opened for user root by (uid=0)
+лют 28 18:39:01 edge-N68S3B CRON[27105]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+лют 28 18:39:01 edge-N68S3B CRON[27104]: pam_unix(cron:session): session closed for user root
+лют 28 18:39:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+лют 28 18:39:38 edge-N68S3B sessionclean[27122]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+лют 28 18:39:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+лют 28 19:05:01 edge-N68S3B CRON[27761]: pam_unix(cron:session): session opened for user edge by (uid=0)
+лют 28 19:05:01 edge-N68S3B CRON[27762]: (edge) CMD (curl http://www.films.loc/cron/PUUXD3jI0OZBrsmpsqW3YssSai1son8lmkmE38cqW7yYL47aIBe25GHNDhnRwMisHsAn_3fPcw)
+лют 28 19:05:01 edge-N68S3B CRON[27761]: (CRON) info (No MTA installed, discarding output)
+лют 28 19:05:01 edge-N68S3B CRON[27761]: pam_unix(cron:session): session closed for user edge
+лют 28 19:09:01 edge-N68S3B CRON[27832]: pam_unix(cron:session): session opened for user root by (uid=0)
+лют 28 19:09:01 edge-N68S3B CRON[27833]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+лют 28 19:09:01 edge-N68S3B CRON[27832]: pam_unix(cron:session): session closed for user root
+лют 28 19:09:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+лют 28 19:09:38 edge-N68S3B sessionclean[27841]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+лют 28 19:09:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+лют 28 19:10:01 edge-N68S3B CRON[27907]: pam_unix(cron:session): session opened for user edge by (uid=0)
+лют 28 19:10:01 edge-N68S3B CRON[27908]: (edge) CMD (curl http://www.learn.loc/cron/6WIRz4G0PcR2xYuaL0e3rYPG9-XyH31w_34NW1b8Icm4L0W5pWcLIg7DLpBxjmSUcBvpg7_G4Q)
+лют 28 19:10:01 edge-N68S3B CRON[27907]: (CRON) info (No MTA installed, discarding output)
+лют 28 19:10:01 edge-N68S3B CRON[27907]: pam_unix(cron:session): session closed for user edge
+лют 28 19:17:01 edge-N68S3B CRON[28101]: pam_unix(cron:session): session opened for user root by (uid=0)
+лют 28 19:17:01 edge-N68S3B CRON[28102]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+лют 28 19:17:01 edge-N68S3B CRON[28101]: pam_unix(cron:session): session closed for user root
+лют 28 19:39:01 edge-N68S3B CRON[28498]: pam_unix(cron:session): session opened for user root by (uid=0)
+лют 28 19:39:01 edge-N68S3B CRON[28499]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+лют 28 19:39:01 edge-N68S3B CRON[28498]: pam_unix(cron:session): session closed for user root
+лют 28 19:39:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+лют 28 19:39:38 edge-N68S3B sessionclean[28502]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+лют 28 19:39:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+лют 28 19:40:13 edge-N68S3B compiz[2224]: gkr-pam: unlocked login keyring
+лют 28 20:03:40 edge-N68S3B systemd[1]: Started CUPS Scheduler.
+-- Subject: Unit cups.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.service has finished starting up.
+-- 
+-- The start-up result is done.
+лют 28 20:05:01 edge-N68S3B CRON[29456]: pam_unix(cron:session): session opened for user edge by (uid=0)
+лют 28 20:05:01 edge-N68S3B CRON[29457]: (edge) CMD (curl http://www.films.loc/cron/PUUXD3jI0OZBrsmpsqW3YssSai1son8lmkmE38cqW7yYL47aIBe25GHNDhnRwMisHsAn_3fPcw)
+лют 28 20:05:01 edge-N68S3B CRON[29456]: (CRON) info (No MTA installed, discarding output)
+лют 28 20:05:01 edge-N68S3B CRON[29456]: pam_unix(cron:session): session closed for user edge
+лют 28 20:09:01 edge-N68S3B CRON[29537]: pam_unix(cron:session): session opened for user root by (uid=0)
+лют 28 20:09:01 edge-N68S3B CRON[29538]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+лют 28 20:09:01 edge-N68S3B CRON[29537]: pam_unix(cron:session): session closed for user root
+лют 28 20:09:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+лют 28 20:09:38 edge-N68S3B sessionclean[29546]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+лют 28 20:09:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+лют 28 20:10:01 edge-N68S3B CRON[29605]: pam_unix(cron:session): session opened for user edge by (uid=0)
+лют 28 20:10:01 edge-N68S3B CRON[29606]: (edge) CMD (curl http://www.learn.loc/cron/6WIRz4G0PcR2xYuaL0e3rYPG9-XyH31w_34NW1b8Icm4L0W5pWcLIg7DLpBxjmSUcBvpg7_G4Q)
+лют 28 20:10:01 edge-N68S3B CRON[29605]: (CRON) info (No MTA installed, discarding output)
+лют 28 20:10:01 edge-N68S3B CRON[29605]: pam_unix(cron:session): session closed for user edge
+лют 28 20:17:01 edge-N68S3B CRON[29800]: pam_unix(cron:session): session opened for user root by (uid=0)
+лют 28 20:17:01 edge-N68S3B CRON[29801]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+лют 28 20:17:01 edge-N68S3B CRON[29800]: pam_unix(cron:session): session closed for user root
+лют 28 20:39:01 edge-N68S3B CRON[30214]: pam_unix(cron:session): session opened for user root by (uid=0)
+лют 28 20:39:01 edge-N68S3B CRON[30215]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+лют 28 20:39:01 edge-N68S3B CRON[30214]: pam_unix(cron:session): session closed for user root
+лют 28 20:39:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+лют 28 20:39:38 edge-N68S3B sessionclean[30221]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+лют 28 20:39:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+лют 28 21:05:01 edge-N68S3B CRON[30767]: pam_unix(cron:session): session opened for user edge by (uid=0)
+лют 28 21:05:01 edge-N68S3B CRON[30768]: (edge) CMD (curl http://www.films.loc/cron/PUUXD3jI0OZBrsmpsqW3YssSai1son8lmkmE38cqW7yYL47aIBe25GHNDhnRwMisHsAn_3fPcw)
+лют 28 21:05:01 edge-N68S3B CRON[30767]: (CRON) info (No MTA installed, discarding output)
+лют 28 21:05:01 edge-N68S3B CRON[30767]: pam_unix(cron:session): session closed for user edge
+лют 28 21:09:01 edge-N68S3B CRON[30845]: pam_unix(cron:session): session opened for user root by (uid=0)
+лют 28 21:09:01 edge-N68S3B CRON[30846]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+лют 28 21:09:01 edge-N68S3B CRON[30845]: pam_unix(cron:session): session closed for user root
+лют 28 21:09:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+лют 28 21:09:38 edge-N68S3B sessionclean[30854]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+лют 28 21:09:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+лют 28 21:10:01 edge-N68S3B CRON[30910]: pam_unix(cron:session): session opened for user edge by (uid=0)
+лют 28 21:10:01 edge-N68S3B CRON[30911]: (edge) CMD (curl http://www.learn.loc/cron/6WIRz4G0PcR2xYuaL0e3rYPG9-XyH31w_34NW1b8Icm4L0W5pWcLIg7DLpBxjmSUcBvpg7_G4Q)
+лют 28 21:10:01 edge-N68S3B CRON[30910]: (CRON) info (No MTA installed, discarding output)
+лют 28 21:10:01 edge-N68S3B CRON[30910]: pam_unix(cron:session): session closed for user edge
+лют 28 21:17:01 edge-N68S3B CRON[31074]: pam_unix(cron:session): session opened for user root by (uid=0)
+лют 28 21:17:01 edge-N68S3B CRON[31075]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+лют 28 21:17:01 edge-N68S3B CRON[31074]: pam_unix(cron:session): session closed for user root
+лют 28 21:31:13 edge-N68S3B dhclient[1525]: DHCPREQUEST of 10.10.0.91 on enp3s0 to 10.10.1.2 port 67 (xid=0x2c06f7bc)
+лют 28 21:31:13 edge-N68S3B dhclient[1525]: DHCPACK of 10.10.0.91 from 10.10.1.2
+лют 28 21:31:13 edge-N68S3B dhclient[1525]: bound to 10.10.0.91 -- renewal in 16538 seconds.
+лют 28 21:31:13 edge-N68S3B NetworkManager[845]: <info>  [1488310273.2629]   address 10.10.0.91
+лют 28 21:31:13 edge-N68S3B NetworkManager[845]: <info>  [1488310273.2633]   plen 24 (255.255.255.0)
+лют 28 21:31:13 edge-N68S3B NetworkManager[845]: <info>  [1488310273.2635]   gateway 10.10.0.1
+лют 28 21:31:13 edge-N68S3B NetworkManager[845]: <info>  [1488310273.2635]   server identifier 10.10.1.2
+лют 28 21:31:13 edge-N68S3B NetworkManager[845]: <info>  [1488310273.2635]   lease time 36000
+лют 28 21:31:13 edge-N68S3B NetworkManager[845]: <info>  [1488310273.2635]   nameserver '10.10.0.1'
+лют 28 21:31:13 edge-N68S3B NetworkManager[845]: <info>  [1488310273.2635]   domain name 'local.drupalcompany.com'
+лют 28 21:31:13 edge-N68S3B NetworkManager[845]: <info>  [1488310273.2635]   wins '10.10.0.1'
+лют 28 21:31:13 edge-N68S3B NetworkManager[845]: <info>  [1488310273.2657] dhcp4 (enp3s0): state changed bound -> bound
+лют 28 21:31:13 edge-N68S3B dbus[792]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'[0m
+лют 28 21:31:13 edge-N68S3B systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: Unit NetworkManager-dispatcher.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-dispatcher.service has begun starting up.
+лют 28 21:31:13 edge-N68S3B dbus[792]: [0;1;39m[system] Successfully activated service 'org.freedesktop.nm_dispatcher'[0m
+лют 28 21:31:13 edge-N68S3B systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: Unit NetworkManager-dispatcher.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-dispatcher.service has finished starting up.
+-- 
+-- The start-up result is done.
+лют 28 21:31:13 edge-N68S3B nm-dispatcher[31385]: req:1 'dhcp4-change' [enp3s0]: new request (1 scripts)
+лют 28 21:31:13 edge-N68S3B nm-dispatcher[31385]: req:1 'dhcp4-change' [enp3s0]: start running ordered scripts...
+лют 28 21:39:01 edge-N68S3B CRON[31544]: pam_unix(cron:session): session opened for user root by (uid=0)
+лют 28 21:39:01 edge-N68S3B CRON[31545]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+лют 28 21:39:01 edge-N68S3B CRON[31544]: pam_unix(cron:session): session closed for user root
+лют 28 21:39:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+лют 28 21:39:38 edge-N68S3B sessionclean[31551]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+лют 28 21:39:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+лют 28 22:05:01 edge-N68S3B CRON[32128]: pam_unix(cron:session): session opened for user edge by (uid=0)
+лют 28 22:05:01 edge-N68S3B CRON[32129]: (edge) CMD (curl http://www.films.loc/cron/PUUXD3jI0OZBrsmpsqW3YssSai1son8lmkmE38cqW7yYL47aIBe25GHNDhnRwMisHsAn_3fPcw)
+лют 28 22:05:01 edge-N68S3B CRON[32128]: (CRON) info (No MTA installed, discarding output)
+лют 28 22:05:01 edge-N68S3B CRON[32128]: pam_unix(cron:session): session closed for user edge
+лют 28 22:09:01 edge-N68S3B CRON[32254]: pam_unix(cron:session): session opened for user root by (uid=0)
+лют 28 22:09:01 edge-N68S3B CRON[32255]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+лют 28 22:09:01 edge-N68S3B CRON[32254]: pam_unix(cron:session): session closed for user root
+лют 28 22:09:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+лют 28 22:09:38 edge-N68S3B sessionclean[32261]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+лют 28 22:09:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+лют 28 22:10:01 edge-N68S3B CRON[32326]: pam_unix(cron:session): session opened for user edge by (uid=0)
+лют 28 22:10:01 edge-N68S3B CRON[32327]: (edge) CMD (curl http://www.learn.loc/cron/6WIRz4G0PcR2xYuaL0e3rYPG9-XyH31w_34NW1b8Icm4L0W5pWcLIg7DLpBxjmSUcBvpg7_G4Q)
+лют 28 22:10:01 edge-N68S3B CRON[32326]: (CRON) info (No MTA installed, discarding output)
+лют 28 22:10:01 edge-N68S3B CRON[32326]: pam_unix(cron:session): session closed for user edge
+лют 28 22:17:01 edge-N68S3B CRON[32515]: pam_unix(cron:session): session opened for user root by (uid=0)
+лют 28 22:17:01 edge-N68S3B CRON[32516]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+лют 28 22:17:01 edge-N68S3B CRON[32515]: pam_unix(cron:session): session closed for user root
+лют 28 22:39:01 edge-N68S3B CRON[462]: pam_unix(cron:session): session opened for user root by (uid=0)
+лют 28 22:39:01 edge-N68S3B CRON[463]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+лют 28 22:39:01 edge-N68S3B CRON[462]: pam_unix(cron:session): session closed for user root
+лют 28 22:39:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+лют 28 22:39:38 edge-N68S3B sessionclean[475]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+лют 28 22:39:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+лют 28 23:05:01 edge-N68S3B CRON[1037]: pam_unix(cron:session): session opened for user edge by (uid=0)
+лют 28 23:05:01 edge-N68S3B CRON[1038]: (edge) CMD (curl http://www.films.loc/cron/PUUXD3jI0OZBrsmpsqW3YssSai1son8lmkmE38cqW7yYL47aIBe25GHNDhnRwMisHsAn_3fPcw)
+лют 28 23:05:01 edge-N68S3B CRON[1037]: (CRON) info (No MTA installed, discarding output)
+лют 28 23:05:01 edge-N68S3B CRON[1037]: pam_unix(cron:session): session closed for user edge
+лют 28 23:09:01 edge-N68S3B CRON[1142]: pam_unix(cron:session): session opened for user root by (uid=0)
+лют 28 23:09:01 edge-N68S3B CRON[1143]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+лют 28 23:09:01 edge-N68S3B CRON[1142]: pam_unix(cron:session): session closed for user root
+лют 28 23:09:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+лют 28 23:09:38 edge-N68S3B sessionclean[1160]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+лют 28 23:09:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+лют 28 23:10:01 edge-N68S3B CRON[1221]: pam_unix(cron:session): session opened for user edge by (uid=0)
+лют 28 23:10:01 edge-N68S3B CRON[1222]: (edge) CMD (curl http://www.learn.loc/cron/6WIRz4G0PcR2xYuaL0e3rYPG9-XyH31w_34NW1b8Icm4L0W5pWcLIg7DLpBxjmSUcBvpg7_G4Q)
+лют 28 23:10:01 edge-N68S3B CRON[1221]: (CRON) info (No MTA installed, discarding output)
+лют 28 23:10:01 edge-N68S3B CRON[1221]: pam_unix(cron:session): session closed for user edge
+лют 28 23:17:01 edge-N68S3B CRON[1398]: pam_unix(cron:session): session opened for user root by (uid=0)
+лют 28 23:17:01 edge-N68S3B CRON[1399]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+лют 28 23:17:01 edge-N68S3B CRON[1398]: pam_unix(cron:session): session closed for user root
+лют 28 23:39:01 edge-N68S3B CRON[1781]: pam_unix(cron:session): session opened for user root by (uid=0)
+лют 28 23:39:01 edge-N68S3B CRON[1782]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+лют 28 23:39:01 edge-N68S3B CRON[1781]: pam_unix(cron:session): session closed for user root
+лют 28 23:39:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+лют 28 23:39:38 edge-N68S3B sessionclean[1791]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+лют 28 23:39:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+лют 28 23:49:26 edge-N68S3B systemd[1]: Started CUPS Scheduler.
+-- Subject: Unit cups.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 00:05:01 edge-N68S3B CRON[2438]: pam_unix(cron:session): session opened for user edge by (uid=0)
+бер 01 00:05:01 edge-N68S3B CRON[2439]: (edge) CMD (curl http://www.films.loc/cron/PUUXD3jI0OZBrsmpsqW3YssSai1son8lmkmE38cqW7yYL47aIBe25GHNDhnRwMisHsAn_3fPcw)
+бер 01 00:05:01 edge-N68S3B CRON[2438]: (CRON) info (No MTA installed, discarding output)
+бер 01 00:05:01 edge-N68S3B CRON[2438]: pam_unix(cron:session): session closed for user edge
+бер 01 00:09:01 edge-N68S3B CRON[2627]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 00:09:01 edge-N68S3B CRON[2628]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+бер 01 00:09:01 edge-N68S3B CRON[2627]: pam_unix(cron:session): session closed for user root
+бер 01 00:09:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+бер 01 00:09:38 edge-N68S3B sessionclean[2641]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+бер 01 00:09:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 00:10:01 edge-N68S3B CRON[2718]: pam_unix(cron:session): session opened for user edge by (uid=0)
+бер 01 00:10:01 edge-N68S3B CRON[2724]: (edge) CMD (curl http://www.learn.loc/cron/6WIRz4G0PcR2xYuaL0e3rYPG9-XyH31w_34NW1b8Icm4L0W5pWcLIg7DLpBxjmSUcBvpg7_G4Q)
+бер 01 00:10:01 edge-N68S3B CRON[2718]: (CRON) info (No MTA installed, discarding output)
+бер 01 00:10:01 edge-N68S3B CRON[2718]: pam_unix(cron:session): session closed for user edge
+бер 01 00:17:01 edge-N68S3B CRON[2950]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 00:17:01 edge-N68S3B CRON[2951]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+бер 01 00:17:01 edge-N68S3B CRON[2950]: pam_unix(cron:session): session closed for user root
+бер 01 00:39:01 edge-N68S3B CRON[3495]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 00:39:01 edge-N68S3B CRON[3496]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+бер 01 00:39:01 edge-N68S3B CRON[3495]: pam_unix(cron:session): session closed for user root
+бер 01 00:39:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+бер 01 00:39:38 edge-N68S3B sessionclean[3505]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+бер 01 00:39:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 01:05:01 edge-N68S3B CRON[4097]: pam_unix(cron:session): session opened for user edge by (uid=0)
+бер 01 01:05:01 edge-N68S3B CRON[4098]: (edge) CMD (curl http://www.films.loc/cron/PUUXD3jI0OZBrsmpsqW3YssSai1son8lmkmE38cqW7yYL47aIBe25GHNDhnRwMisHsAn_3fPcw)
+бер 01 01:05:01 edge-N68S3B CRON[4097]: (CRON) info (No MTA installed, discarding output)
+бер 01 01:05:01 edge-N68S3B CRON[4097]: pam_unix(cron:session): session closed for user edge
+бер 01 01:09:01 edge-N68S3B CRON[4188]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 01:09:01 edge-N68S3B CRON[4189]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+бер 01 01:09:01 edge-N68S3B CRON[4188]: pam_unix(cron:session): session closed for user root
+бер 01 01:09:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+бер 01 01:09:38 edge-N68S3B sessionclean[4203]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+бер 01 01:09:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 01:10:01 edge-N68S3B CRON[4270]: pam_unix(cron:session): session opened for user edge by (uid=0)
+бер 01 01:10:01 edge-N68S3B CRON[4271]: (edge) CMD (curl http://www.learn.loc/cron/6WIRz4G0PcR2xYuaL0e3rYPG9-XyH31w_34NW1b8Icm4L0W5pWcLIg7DLpBxjmSUcBvpg7_G4Q)
+бер 01 01:10:01 edge-N68S3B CRON[4270]: (CRON) info (No MTA installed, discarding output)
+бер 01 01:10:01 edge-N68S3B CRON[4270]: pam_unix(cron:session): session closed for user edge
+бер 01 01:17:01 edge-N68S3B CRON[4561]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 01:17:01 edge-N68S3B CRON[4562]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+бер 01 01:17:01 edge-N68S3B CRON[4561]: pam_unix(cron:session): session closed for user root
+бер 01 01:39:01 edge-N68S3B CRON[5272]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 01:39:01 edge-N68S3B CRON[5273]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+бер 01 01:39:01 edge-N68S3B CRON[5272]: pam_unix(cron:session): session closed for user root
+бер 01 01:39:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+бер 01 01:39:38 edge-N68S3B sessionclean[5283]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+бер 01 01:39:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 02:05:01 edge-N68S3B CRON[5848]: pam_unix(cron:session): session opened for user edge by (uid=0)
+бер 01 02:05:01 edge-N68S3B CRON[5849]: (edge) CMD (curl http://www.films.loc/cron/PUUXD3jI0OZBrsmpsqW3YssSai1son8lmkmE38cqW7yYL47aIBe25GHNDhnRwMisHsAn_3fPcw)
+бер 01 02:05:01 edge-N68S3B CRON[5848]: (CRON) info (No MTA installed, discarding output)
+бер 01 02:05:01 edge-N68S3B CRON[5848]: pam_unix(cron:session): session closed for user edge
+бер 01 02:06:51 edge-N68S3B dhclient[1525]: DHCPREQUEST of 10.10.0.91 on enp3s0 to 10.10.1.2 port 67 (xid=0x2c06f7bc)
+бер 01 02:06:51 edge-N68S3B dhclient[1525]: DHCPACK of 10.10.0.91 from 10.10.1.2
+бер 01 02:06:51 edge-N68S3B NetworkManager[845]: <info>  [1488326811.2003]   address 10.10.0.91
+бер 01 02:06:51 edge-N68S3B NetworkManager[845]: <info>  [1488326811.2003]   plen 24 (255.255.255.0)
+бер 01 02:06:51 edge-N68S3B NetworkManager[845]: <info>  [1488326811.2004]   gateway 10.10.0.1
+бер 01 02:06:51 edge-N68S3B dbus[792]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'[0m
+бер 01 02:06:51 edge-N68S3B NetworkManager[845]: <info>  [1488326811.2004]   server identifier 10.10.1.2
+бер 01 02:06:51 edge-N68S3B dhclient[1525]: bound to 10.10.0.91 -- renewal in 15049 seconds.
+бер 01 02:06:51 edge-N68S3B NetworkManager[845]: <info>  [1488326811.2004]   lease time 36000
+бер 01 02:06:51 edge-N68S3B NetworkManager[845]: <info>  [1488326811.2004]   nameserver '10.10.0.1'
+бер 01 02:06:51 edge-N68S3B NetworkManager[845]: <info>  [1488326811.2004]   domain name 'local.drupalcompany.com'
+бер 01 02:06:51 edge-N68S3B NetworkManager[845]: <info>  [1488326811.2004]   wins '10.10.0.1'
+бер 01 02:06:51 edge-N68S3B NetworkManager[845]: <info>  [1488326811.2005] dhcp4 (enp3s0): state changed bound -> bound
+бер 01 02:06:51 edge-N68S3B systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: Unit NetworkManager-dispatcher.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-dispatcher.service has begun starting up.
+бер 01 02:06:51 edge-N68S3B dbus[792]: [0;1;39m[system] Successfully activated service 'org.freedesktop.nm_dispatcher'[0m
+бер 01 02:06:51 edge-N68S3B systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: Unit NetworkManager-dispatcher.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-dispatcher.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 02:06:51 edge-N68S3B nm-dispatcher[5897]: req:1 'dhcp4-change' [enp3s0]: new request (1 scripts)
+бер 01 02:06:51 edge-N68S3B nm-dispatcher[5897]: req:1 'dhcp4-change' [enp3s0]: start running ordered scripts...
+бер 01 02:09:01 edge-N68S3B CRON[5936]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 02:09:01 edge-N68S3B CRON[5937]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+бер 01 02:09:01 edge-N68S3B CRON[5936]: pam_unix(cron:session): session closed for user root
+бер 01 02:09:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+бер 01 02:09:38 edge-N68S3B sessionclean[5948]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+бер 01 02:09:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 02:10:01 edge-N68S3B CRON[6005]: pam_unix(cron:session): session opened for user edge by (uid=0)
+бер 01 02:10:01 edge-N68S3B CRON[6006]: (edge) CMD (curl http://www.learn.loc/cron/6WIRz4G0PcR2xYuaL0e3rYPG9-XyH31w_34NW1b8Icm4L0W5pWcLIg7DLpBxjmSUcBvpg7_G4Q)
+бер 01 02:10:01 edge-N68S3B CRON[6005]: (CRON) info (No MTA installed, discarding output)
+бер 01 02:10:01 edge-N68S3B CRON[6005]: pam_unix(cron:session): session closed for user edge
+бер 01 02:17:01 edge-N68S3B CRON[6201]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 02:17:01 edge-N68S3B CRON[6202]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+бер 01 02:17:01 edge-N68S3B CRON[6201]: pam_unix(cron:session): session closed for user root
+бер 01 02:24:41 edge-N68S3B systemd[1]: snapd.refresh.timer: Adding 4h 1min 36.223527s random time.
+бер 01 02:39:01 edge-N68S3B CRON[6594]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 02:39:01 edge-N68S3B CRON[6595]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+бер 01 02:39:01 edge-N68S3B CRON[6594]: pam_unix(cron:session): session closed for user root
+бер 01 02:39:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+бер 01 02:39:38 edge-N68S3B sessionclean[6604]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+бер 01 02:39:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 03:05:01 edge-N68S3B CRON[7157]: pam_unix(cron:session): session opened for user edge by (uid=0)
+бер 01 03:05:01 edge-N68S3B CRON[7158]: (edge) CMD (curl http://www.films.loc/cron/PUUXD3jI0OZBrsmpsqW3YssSai1son8lmkmE38cqW7yYL47aIBe25GHNDhnRwMisHsAn_3fPcw)
+бер 01 03:05:01 edge-N68S3B CRON[7157]: (CRON) info (No MTA installed, discarding output)
+бер 01 03:05:01 edge-N68S3B CRON[7157]: pam_unix(cron:session): session closed for user edge
+бер 01 03:09:01 edge-N68S3B CRON[7246]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 03:09:01 edge-N68S3B CRON[7247]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+бер 01 03:09:01 edge-N68S3B CRON[7246]: pam_unix(cron:session): session closed for user root
+бер 01 03:09:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+бер 01 03:09:38 edge-N68S3B sessionclean[7259]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+бер 01 03:09:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 03:10:01 edge-N68S3B CRON[7317]: pam_unix(cron:session): session opened for user edge by (uid=0)
+бер 01 03:10:01 edge-N68S3B CRON[7318]: (edge) CMD (curl http://www.learn.loc/cron/6WIRz4G0PcR2xYuaL0e3rYPG9-XyH31w_34NW1b8Icm4L0W5pWcLIg7DLpBxjmSUcBvpg7_G4Q)
+бер 01 03:10:01 edge-N68S3B CRON[7317]: (CRON) info (No MTA installed, discarding output)
+бер 01 03:10:01 edge-N68S3B CRON[7317]: pam_unix(cron:session): session closed for user edge
+бер 01 03:17:01 edge-N68S3B CRON[7513]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 03:17:01 edge-N68S3B CRON[7514]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+бер 01 03:17:01 edge-N68S3B CRON[7513]: pam_unix(cron:session): session closed for user root
+бер 01 03:39:01 edge-N68S3B CRON[7907]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 03:39:01 edge-N68S3B CRON[7908]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+бер 01 03:39:01 edge-N68S3B CRON[7907]: pam_unix(cron:session): session closed for user root
+бер 01 03:39:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+бер 01 03:39:38 edge-N68S3B sessionclean[7917]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+бер 01 03:39:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 04:05:01 edge-N68S3B CRON[8475]: pam_unix(cron:session): session opened for user edge by (uid=0)
+бер 01 04:05:01 edge-N68S3B CRON[8476]: (edge) CMD (curl http://www.films.loc/cron/PUUXD3jI0OZBrsmpsqW3YssSai1son8lmkmE38cqW7yYL47aIBe25GHNDhnRwMisHsAn_3fPcw)
+бер 01 04:05:01 edge-N68S3B CRON[8475]: (CRON) info (No MTA installed, discarding output)
+бер 01 04:05:01 edge-N68S3B CRON[8475]: pam_unix(cron:session): session closed for user edge
+бер 01 04:09:01 edge-N68S3B CRON[8564]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 04:09:01 edge-N68S3B CRON[8565]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+бер 01 04:09:01 edge-N68S3B CRON[8564]: pam_unix(cron:session): session closed for user root
+бер 01 04:09:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+бер 01 04:09:38 edge-N68S3B sessionclean[8575]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+бер 01 04:09:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 04:10:01 edge-N68S3B CRON[8633]: pam_unix(cron:session): session opened for user edge by (uid=0)
+бер 01 04:10:01 edge-N68S3B CRON[8634]: (edge) CMD (curl http://www.learn.loc/cron/6WIRz4G0PcR2xYuaL0e3rYPG9-XyH31w_34NW1b8Icm4L0W5pWcLIg7DLpBxjmSUcBvpg7_G4Q)
+бер 01 04:10:02 edge-N68S3B CRON[8633]: (CRON) info (No MTA installed, discarding output)
+бер 01 04:10:02 edge-N68S3B CRON[8633]: pam_unix(cron:session): session closed for user edge
+бер 01 04:17:01 edge-N68S3B CRON[8836]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 04:17:01 edge-N68S3B CRON[8837]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+бер 01 04:17:01 edge-N68S3B CRON[8836]: pam_unix(cron:session): session closed for user root
+бер 01 04:39:01 edge-N68S3B CRON[9236]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 04:39:01 edge-N68S3B CRON[9237]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+бер 01 04:39:01 edge-N68S3B CRON[9236]: pam_unix(cron:session): session closed for user root
+бер 01 04:39:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+бер 01 04:39:38 edge-N68S3B sessionclean[9250]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+бер 01 04:39:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 05:05:01 edge-N68S3B CRON[9796]: pam_unix(cron:session): session opened for user edge by (uid=0)
+бер 01 05:05:01 edge-N68S3B CRON[9797]: (edge) CMD (curl http://www.films.loc/cron/PUUXD3jI0OZBrsmpsqW3YssSai1son8lmkmE38cqW7yYL47aIBe25GHNDhnRwMisHsAn_3fPcw)
+бер 01 05:05:01 edge-N68S3B CRON[9796]: (CRON) info (No MTA installed, discarding output)
+бер 01 05:05:01 edge-N68S3B CRON[9796]: pam_unix(cron:session): session closed for user edge
+бер 01 05:09:01 edge-N68S3B CRON[9870]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 05:09:01 edge-N68S3B CRON[9871]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+бер 01 05:09:01 edge-N68S3B CRON[9870]: pam_unix(cron:session): session closed for user root
+бер 01 05:09:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+бер 01 05:09:38 edge-N68S3B sessionclean[9879]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+бер 01 05:09:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 05:10:01 edge-N68S3B CRON[9939]: pam_unix(cron:session): session opened for user edge by (uid=0)
+бер 01 05:10:01 edge-N68S3B CRON[9940]: (edge) CMD (curl http://www.learn.loc/cron/6WIRz4G0PcR2xYuaL0e3rYPG9-XyH31w_34NW1b8Icm4L0W5pWcLIg7DLpBxjmSUcBvpg7_G4Q)
+бер 01 05:10:01 edge-N68S3B CRON[9939]: (CRON) info (No MTA installed, discarding output)
+бер 01 05:10:01 edge-N68S3B CRON[9939]: pam_unix(cron:session): session closed for user edge
+бер 01 05:17:01 edge-N68S3B CRON[10109]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 05:17:01 edge-N68S3B CRON[10110]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+бер 01 05:17:01 edge-N68S3B CRON[10109]: pam_unix(cron:session): session closed for user root
+бер 01 05:31:41 edge-N68S3B systemd[1]: Starting Daily apt activities...
+-- Subject: Unit apt-daily.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apt-daily.service has begun starting up.
+бер 01 05:31:56 edge-N68S3B systemd[1]: Started Daily apt activities.
+-- Subject: Unit apt-daily.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apt-daily.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 05:31:56 edge-N68S3B systemd[1]: apt-daily.timer: Adding 4h 5min 3.654993s random time.
+бер 01 05:31:56 edge-N68S3B systemd[1]: apt-daily.timer: Adding 2h 33min 36.157021s random time.
+бер 01 05:32:23 edge-N68S3B pkexec[10921]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+бер 01 05:32:23 edge-N68S3B pkexec[10921]: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+бер 01 05:32:23 edge-N68S3B pkexec[10921]: [0;1;39medge: Executing command [USER=root] [TTY=unknown] [CWD=/home/edge] [COMMAND=/usr/lib/update-notifier/package-system-locked][0m
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/2454/fd/10: Permission denied
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/2454/fd/1023: Permission denied
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/2490/fd/1023: Permission denied
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/4: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/5: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/6: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/7: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/11: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4711/fd/10: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4711/fd/11: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4779/fd/10: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4779/fd/11: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4780/fd/10: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4780/fd/11: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4781/fd/10: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4781/fd/11: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4782/fd/10: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4782/fd/11: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4783/fd/10: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4783/fd/11: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/2454/fd/10: Permission denied
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/2454/fd/1023: Permission denied
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/2490/fd/1023: Permission denied
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/4: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/5: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/6: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/7: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/11: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4711/fd/10: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4711/fd/11: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4779/fd/10: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4779/fd/11: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4780/fd/10: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4780/fd/11: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4781/fd/10: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4781/fd/11: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4782/fd/10: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4782/fd/11: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4783/fd/10: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4783/fd/11: Stale file handle
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/2454/fd/10: Permission denied
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/2454/fd/1023: Permission denied
+бер 01 05:32:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/2490/fd/1023: Permission denied
+бер 01 05:32:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/4: Stale file handle
+бер 01 05:32:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/5: Stale file handle
+бер 01 05:32:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/6: Stale file handle
+бер 01 05:32:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/7: Stale file handle
+бер 01 05:32:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/11: Stale file handle
+бер 01 05:32:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4711/fd/10: Stale file handle
+бер 01 05:32:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4711/fd/11: Stale file handle
+бер 01 05:32:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4779/fd/10: Stale file handle
+бер 01 05:32:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4779/fd/11: Stale file handle
+бер 01 05:32:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4780/fd/10: Stale file handle
+бер 01 05:32:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4780/fd/11: Stale file handle
+бер 01 05:32:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4781/fd/10: Stale file handle
+бер 01 05:32:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4781/fd/11: Stale file handle
+бер 01 05:32:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4782/fd/10: Stale file handle
+бер 01 05:32:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4782/fd/11: Stale file handle
+бер 01 05:32:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4783/fd/10: Stale file handle
+бер 01 05:32:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4783/fd/11: Stale file handle
+бер 01 05:39:01 edge-N68S3B CRON[11047]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 05:39:01 edge-N68S3B CRON[11048]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+бер 01 05:39:01 edge-N68S3B CRON[11047]: pam_unix(cron:session): session closed for user root
+бер 01 05:39:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+бер 01 05:39:38 edge-N68S3B sessionclean[11062]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+бер 01 05:39:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 06:05:01 edge-N68S3B CRON[11569]: pam_unix(cron:session): session opened for user edge by (uid=0)
+бер 01 06:05:01 edge-N68S3B CRON[11570]: (edge) CMD (curl http://www.films.loc/cron/PUUXD3jI0OZBrsmpsqW3YssSai1son8lmkmE38cqW7yYL47aIBe25GHNDhnRwMisHsAn_3fPcw)
+бер 01 06:05:01 edge-N68S3B CRON[11569]: (CRON) info (No MTA installed, discarding output)
+бер 01 06:05:01 edge-N68S3B CRON[11569]: pam_unix(cron:session): session closed for user edge
+бер 01 06:09:01 edge-N68S3B CRON[11641]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 06:09:01 edge-N68S3B CRON[11642]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+бер 01 06:09:01 edge-N68S3B CRON[11641]: pam_unix(cron:session): session closed for user root
+бер 01 06:09:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+бер 01 06:09:38 edge-N68S3B sessionclean[11655]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+бер 01 06:09:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 06:10:01 edge-N68S3B CRON[11713]: pam_unix(cron:session): session opened for user edge by (uid=0)
+бер 01 06:10:01 edge-N68S3B CRON[11714]: (edge) CMD (curl http://www.learn.loc/cron/6WIRz4G0PcR2xYuaL0e3rYPG9-XyH31w_34NW1b8Icm4L0W5pWcLIg7DLpBxjmSUcBvpg7_G4Q)
+бер 01 06:10:01 edge-N68S3B CRON[11713]: (CRON) info (No MTA installed, discarding output)
+бер 01 06:10:01 edge-N68S3B CRON[11713]: pam_unix(cron:session): session closed for user edge
+бер 01 06:11:22 edge-N68S3B dbus[792]: [0;1;39m[system] Activating service name='org.debian.apt' (using servicehelper)[0m
+бер 01 06:11:22 edge-N68S3B AptDaemon[11761]: INFO: Initializing daemon
+бер 01 06:11:22 edge-N68S3B org.debian.apt[792]: [0;1;39m06:11:22 AptDaemon [INFO]: Initializing daemon[0m
+бер 01 06:11:22 edge-N68S3B dbus[792]: [0;1;39m[system] Successfully activated service 'org.debian.apt'[0m
+бер 01 06:11:22 edge-N68S3B AptDaemon.PackageKit[11761]: INFO: Initializing PackageKit compat layer
+бер 01 06:11:22 edge-N68S3B org.debian.apt[792]: [0;1;39m/usr/lib/python3/dist-packages/aptdaemon/worker/pkworker.py:35: PyGIWarning: PackageKitGlib was imported without specifying a version first. Use gi.require_version('PackageKitGlib', '1.0') before import to ensure that the right version gets loaded.[0m
+бер 01 06:11:22 edge-N68S3B org.debian.apt[792]: [0;1;39m  from gi.repository import PackageKitGlib as pk[0m
+бер 01 06:11:22 edge-N68S3B org.debian.apt[792]: [0;1;39m06:11:22 AptDaemon.PackageKit [INFO]: Initializing PackageKit compat layer[0m
+бер 01 06:11:22 edge-N68S3B AptDaemon[11761]: INFO: UpdateCache() was called
+бер 01 06:11:22 edge-N68S3B org.debian.apt[792]: [0;1;39m06:11:22 AptDaemon [INFO]: UpdateCache() was called[0m
+бер 01 06:11:22 edge-N68S3B AptDaemon.Trans[11761]: INFO: Queuing transaction /org/debian/apt/transaction/763c679d07d646bc9d0e952b9170cfd7
+бер 01 06:11:22 edge-N68S3B org.debian.apt[792]: [0;1;39m06:11:22 AptDaemon.Trans [INFO]: Queuing transaction /org/debian/apt/transaction/763c679d07d646bc9d0e952b9170cfd7[0m
+бер 01 06:11:22 edge-N68S3B AptDaemon.Worker[11761]: INFO: Simulating trans: /org/debian/apt/transaction/763c679d07d646bc9d0e952b9170cfd7
+бер 01 06:11:22 edge-N68S3B org.debian.apt[792]: [0;1;39m06:11:22 AptDaemon.Worker [INFO]: Simulating trans: /org/debian/apt/transaction/763c679d07d646bc9d0e952b9170cfd7[0m
+бер 01 06:11:22 edge-N68S3B AptDaemon.Worker[11761]: INFO: Processing transaction /org/debian/apt/transaction/763c679d07d646bc9d0e952b9170cfd7
+бер 01 06:11:22 edge-N68S3B org.debian.apt[792]: [0;1;39m06:11:22 AptDaemon.Worker [INFO]: Processing transaction /org/debian/apt/transaction/763c679d07d646bc9d0e952b9170cfd7[0m
+бер 01 06:11:22 edge-N68S3B AptDaemon.Worker[11761]: INFO: Updating cache
+бер 01 06:11:22 edge-N68S3B org.debian.apt[792]: [0;1;39m06:11:22 AptDaemon.Worker [INFO]: Updating cache[0m
+бер 01 06:11:26 edge-N68S3B AptDaemon.Worker[11761]: INFO: Finished transaction /org/debian/apt/transaction/763c679d07d646bc9d0e952b9170cfd7
+бер 01 06:11:26 edge-N68S3B org.debian.apt[792]: [0;1;39m06:11:26 AptDaemon.Worker [INFO]: Finished transaction /org/debian/apt/transaction/763c679d07d646bc9d0e952b9170cfd7[0m
+бер 01 06:14:23 edge-N68S3B pkexec[12300]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+бер 01 06:14:23 edge-N68S3B pkexec[12300]: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+бер 01 06:14:23 edge-N68S3B pkexec[12300]: [0;1;39medge: Executing command [USER=root] [TTY=unknown] [CWD=/home/edge] [COMMAND=/usr/lib/update-notifier/package-system-locked][0m
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/2454/fd/10: Permission denied
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/2454/fd/1023: Permission denied
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/2490/fd/1023: Permission denied
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/4: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/5: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/6: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/7: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/11: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4711/fd/10: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4711/fd/11: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4779/fd/10: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4779/fd/11: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4780/fd/10: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4780/fd/11: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4781/fd/10: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4781/fd/11: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4782/fd/10: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4782/fd/11: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4783/fd/10: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4783/fd/11: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/2454/fd/10: Permission denied
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/2454/fd/1023: Permission denied
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/2490/fd/1023: Permission denied
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/4: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/5: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/6: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/7: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/11: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4711/fd/10: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4711/fd/11: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4779/fd/10: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4779/fd/11: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4780/fd/10: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4780/fd/11: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4781/fd/10: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4781/fd/11: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4782/fd/10: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4782/fd/11: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4783/fd/10: Stale file handle
+бер 01 06:14:23 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4783/fd/11: Stale file handle
+бер 01 06:14:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/2454/fd/10: Permission denied
+бер 01 06:14:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/2454/fd/1023: Permission denied
+бер 01 06:14:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/2490/fd/1023: Permission denied
+бер 01 06:14:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/4: Stale file handle
+бер 01 06:14:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/5: Stale file handle
+бер 01 06:14:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/6: Stale file handle
+бер 01 06:14:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/7: Stale file handle
+бер 01 06:14:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4440/fd/11: Stale file handle
+бер 01 06:14:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4711/fd/10: Stale file handle
+бер 01 06:14:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4711/fd/11: Stale file handle
+бер 01 06:14:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4779/fd/10: Stale file handle
+бер 01 06:14:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4779/fd/11: Stale file handle
+бер 01 06:14:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4780/fd/10: Stale file handle
+бер 01 06:14:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4780/fd/11: Stale file handle
+бер 01 06:14:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4781/fd/10: Stale file handle
+бер 01 06:14:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4781/fd/11: Stale file handle
+бер 01 06:14:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4782/fd/10: Stale file handle
+бер 01 06:14:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4782/fd/11: Stale file handle
+бер 01 06:14:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4783/fd/10: Stale file handle
+бер 01 06:14:24 edge-N68S3B gnome-session[2084]: Cannot stat file /proc/4783/fd/11: Stale file handle
+бер 01 06:17:01 edge-N68S3B CRON[12369]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 06:17:01 edge-N68S3B CRON[12370]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+бер 01 06:17:01 edge-N68S3B CRON[12369]: pam_unix(cron:session): session closed for user root
+бер 01 06:17:40 edge-N68S3B dhclient[1525]: DHCPREQUEST of 10.10.0.91 on enp3s0 to 10.10.1.2 port 67 (xid=0x2c06f7bc)
+бер 01 06:17:40 edge-N68S3B dhclient[1525]: DHCPACK of 10.10.0.91 from 10.10.1.2
+бер 01 06:17:40 edge-N68S3B NetworkManager[845]: <info>  [1488341860.9037]   address 10.10.0.91
+бер 01 06:17:40 edge-N68S3B NetworkManager[845]: <info>  [1488341860.9038]   plen 24 (255.255.255.0)
+бер 01 06:17:40 edge-N68S3B NetworkManager[845]: <info>  [1488341860.9038]   gateway 10.10.0.1
+бер 01 06:17:40 edge-N68S3B NetworkManager[845]: <info>  [1488341860.9038]   server identifier 10.10.1.2
+бер 01 06:17:40 edge-N68S3B NetworkManager[845]: <info>  [1488341860.9038]   lease time 36000
+бер 01 06:17:40 edge-N68S3B NetworkManager[845]: <info>  [1488341860.9038]   nameserver '10.10.0.1'
+бер 01 06:17:40 edge-N68S3B dhclient[1525]: bound to 10.10.0.91 -- renewal in 15448 seconds.
+бер 01 06:17:40 edge-N68S3B NetworkManager[845]: <info>  [1488341860.9038]   domain name 'local.drupalcompany.com'
+бер 01 06:17:40 edge-N68S3B dbus[792]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'[0m
+бер 01 06:17:40 edge-N68S3B NetworkManager[845]: <info>  [1488341860.9038]   wins '10.10.0.1'
+бер 01 06:17:40 edge-N68S3B NetworkManager[845]: <info>  [1488341860.9046] dhcp4 (enp3s0): state changed bound -> bound
+бер 01 06:17:40 edge-N68S3B systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: Unit NetworkManager-dispatcher.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-dispatcher.service has begun starting up.
+бер 01 06:17:40 edge-N68S3B dbus[792]: [0;1;39m[system] Successfully activated service 'org.freedesktop.nm_dispatcher'[0m
+бер 01 06:17:40 edge-N68S3B systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: Unit NetworkManager-dispatcher.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-dispatcher.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 06:17:40 edge-N68S3B nm-dispatcher[12389]: req:1 'dhcp4-change' [enp3s0]: new request (1 scripts)
+бер 01 06:17:40 edge-N68S3B nm-dispatcher[12389]: req:1 'dhcp4-change' [enp3s0]: start running ordered scripts...
+бер 01 06:22:22 edge-N68S3B AptDaemon[11761]: INFO: Quitting due to inactivity
+бер 01 06:22:22 edge-N68S3B AptDaemon[11761]: INFO: Quitting was requested
+бер 01 06:22:22 edge-N68S3B org.debian.apt[792]: [0;1;39m06:22:22 AptDaemon [INFO]: Quitting due to inactivity[0m
+бер 01 06:22:22 edge-N68S3B org.debian.apt[792]: [0;1;39m06:22:22 AptDaemon [INFO]: Quitting was requested[0m
+бер 01 06:25:01 edge-N68S3B CRON[12528]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 06:25:01 edge-N68S3B CRON[12530]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+бер 01 06:25:01 edge-N68S3B CRON[12528]: pam_unix(cron:session): session closed for user root
+бер 01 06:39:01 edge-N68S3B CRON[12817]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 06:39:01 edge-N68S3B CRON[12818]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+бер 01 06:39:01 edge-N68S3B CRON[12817]: pam_unix(cron:session): session closed for user root
+бер 01 06:39:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+бер 01 06:39:38 edge-N68S3B sessionclean[12824]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+бер 01 06:39:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 06:52:01 edge-N68S3B CRON[13113]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 06:52:01 edge-N68S3B CRON[13114]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly ))
+бер 01 06:52:01 edge-N68S3B CRON[13113]: pam_unix(cron:session): session closed for user root
+бер 01 07:05:01 edge-N68S3B CRON[13334]: pam_unix(cron:session): session opened for user edge by (uid=0)
+бер 01 07:05:01 edge-N68S3B CRON[13335]: (edge) CMD (curl http://www.films.loc/cron/PUUXD3jI0OZBrsmpsqW3YssSai1son8lmkmE38cqW7yYL47aIBe25GHNDhnRwMisHsAn_3fPcw)
+бер 01 07:05:01 edge-N68S3B CRON[13334]: (CRON) info (No MTA installed, discarding output)
+бер 01 07:05:01 edge-N68S3B CRON[13334]: pam_unix(cron:session): session closed for user edge
+бер 01 07:09:01 edge-N68S3B CRON[13405]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 07:09:01 edge-N68S3B CRON[13406]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+бер 01 07:09:01 edge-N68S3B CRON[13405]: pam_unix(cron:session): session closed for user root
+бер 01 07:09:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+бер 01 07:09:38 edge-N68S3B sessionclean[13417]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+бер 01 07:09:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 07:10:01 edge-N68S3B CRON[13473]: pam_unix(cron:session): session opened for user edge by (uid=0)
+бер 01 07:10:01 edge-N68S3B CRON[13474]: (edge) CMD (curl http://www.learn.loc/cron/6WIRz4G0PcR2xYuaL0e3rYPG9-XyH31w_34NW1b8Icm4L0W5pWcLIg7DLpBxjmSUcBvpg7_G4Q)
+бер 01 07:10:01 edge-N68S3B CRON[13473]: (CRON) info (No MTA installed, discarding output)
+бер 01 07:10:01 edge-N68S3B CRON[13473]: pam_unix(cron:session): session closed for user edge
+бер 01 07:17:01 edge-N68S3B CRON[13683]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 07:17:01 edge-N68S3B CRON[13684]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+бер 01 07:17:01 edge-N68S3B CRON[13683]: pam_unix(cron:session): session closed for user root
+бер 01 07:30:01 edge-N68S3B CRON[13923]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 07:30:01 edge-N68S3B CRON[13924]: (root) CMD (test -x /etc/init.d/anacron && /usr/sbin/invoke-rc.d anacron start >/dev/null)
+бер 01 07:30:01 edge-N68S3B systemd[1]: Started Run anacron jobs.
+-- Subject: Unit anacron.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit anacron.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 07:30:01 edge-N68S3B CRON[13923]: pam_unix(cron:session): session closed for user root
+бер 01 07:30:01 edge-N68S3B anacron[13946]: [0;1;39mAnacron 2.3 started on 2017-03-01[0m
+бер 01 07:30:01 edge-N68S3B anacron[13946]: [0;1;39mWill run job `cron.daily' in 5 min.[0m
+бер 01 07:30:01 edge-N68S3B anacron[13946]: [0;1;39mJobs will be executed sequentially[0m
+бер 01 07:35:01 edge-N68S3B anacron[13946]: [0;1;39mJob `cron.daily' started[0m
+бер 01 07:35:01 edge-N68S3B anacron[14064]: [0;1;39mUpdated timestamp for job `cron.daily' to 2017-03-01[0m
+бер 01 07:35:01 edge-N68S3B cracklib[14090]: no dictionary update necessary.
+бер 01 07:35:01 edge-N68S3B systemd[1]: Stopping Make remote CUPS printers available locally...
+-- Subject: Unit cups-browsed.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups-browsed.service has begun shutting down.
+бер 01 07:36:02 edge-N68S3B systemd[1]: Stopped Make remote CUPS printers available locally.
+-- Subject: Unit cups-browsed.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups-browsed.service has finished shutting down.
+бер 01 07:36:02 edge-N68S3B systemd[1]: Stopped CUPS Scheduler.
+-- Subject: Unit cups.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.service has finished shutting down.
+бер 01 07:36:02 edge-N68S3B systemd[1]: Started CUPS Scheduler.
+-- Subject: Unit cups.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 07:36:02 edge-N68S3B systemd[1]: Started Make remote CUPS printers available locally.
+-- Subject: Unit cups-browsed.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups-browsed.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 07:36:12 edge-N68S3B anacron[13946]: [0;1;39mJob `cron.daily' terminated[0m
+бер 01 07:36:12 edge-N68S3B anacron[13946]: [0;1;39mNormal exit (1 job run)[0m
+бер 01 07:39:01 edge-N68S3B CRON[14654]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 07:39:01 edge-N68S3B CRON[14655]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+бер 01 07:39:01 edge-N68S3B CRON[14654]: pam_unix(cron:session): session closed for user root
+бер 01 07:39:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+бер 01 07:39:38 edge-N68S3B sessionclean[14671]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+бер 01 07:39:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 07:48:01 edge-N68S3B CRON[14883]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 07:48:01 edge-N68S3B CRON[14884]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
+бер 01 07:48:01 edge-N68S3B CRON[14883]: pam_unix(cron:session): session closed for user root
+бер 01 08:05:01 edge-N68S3B CRON[15176]: pam_unix(cron:session): session opened for user edge by (uid=0)
+бер 01 08:05:01 edge-N68S3B CRON[15177]: (edge) CMD (curl http://www.films.loc/cron/PUUXD3jI0OZBrsmpsqW3YssSai1son8lmkmE38cqW7yYL47aIBe25GHNDhnRwMisHsAn_3fPcw)
+бер 01 08:05:01 edge-N68S3B CRON[15176]: (CRON) info (No MTA installed, discarding output)
+бер 01 08:05:01 edge-N68S3B CRON[15176]: pam_unix(cron:session): session closed for user edge
+бер 01 08:09:01 edge-N68S3B CRON[15259]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 08:09:01 edge-N68S3B CRON[15260]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+бер 01 08:09:01 edge-N68S3B CRON[15259]: pam_unix(cron:session): session closed for user root
+бер 01 08:09:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+бер 01 08:09:38 edge-N68S3B sessionclean[15263]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+бер 01 08:09:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 08:10:01 edge-N68S3B CRON[15321]: pam_unix(cron:session): session opened for user edge by (uid=0)
+бер 01 08:10:01 edge-N68S3B CRON[15322]: (edge) CMD (curl http://www.learn.loc/cron/6WIRz4G0PcR2xYuaL0e3rYPG9-XyH31w_34NW1b8Icm4L0W5pWcLIg7DLpBxjmSUcBvpg7_G4Q)
+бер 01 08:10:01 edge-N68S3B CRON[15321]: (CRON) info (No MTA installed, discarding output)
+бер 01 08:10:01 edge-N68S3B CRON[15321]: pam_unix(cron:session): session closed for user edge
+бер 01 08:17:01 edge-N68S3B CRON[15487]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 08:17:01 edge-N68S3B CRON[15488]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+бер 01 08:17:01 edge-N68S3B CRON[15487]: pam_unix(cron:session): session closed for user root
+бер 01 08:33:41 edge-N68S3B systemd[1]: Starting Daily apt activities...
+-- Subject: Unit apt-daily.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apt-daily.service has begun starting up.
+бер 01 08:33:42 edge-N68S3B systemd[1]: Started Daily apt activities.
+-- Subject: Unit apt-daily.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apt-daily.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 08:33:42 edge-N68S3B systemd[1]: apt-daily.timer: Adding 42min 40.784358s random time.
+бер 01 08:33:42 edge-N68S3B systemd[1]: apt-daily.timer: Adding 5h 55min 50.936614s random time.
+бер 01 08:39:01 edge-N68S3B CRON[15947]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 08:39:01 edge-N68S3B CRON[15948]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+бер 01 08:39:01 edge-N68S3B CRON[15947]: pam_unix(cron:session): session closed for user root
+бер 01 08:39:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+бер 01 08:39:38 edge-N68S3B sessionclean[15956]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+бер 01 08:39:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 08:55:34 edge-N68S3B systemd[1]: Started CUPS Scheduler.
+-- Subject: Unit cups.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 09:01:36 edge-N68S3B systemd[1]: snapd.refresh.timer: Adding 5h 6min 52.692474s random time.
+бер 01 09:03:43 edge-N68S3B compiz[2224]: gkr-pam: unlocked login keyring
+бер 01 09:05:01 edge-N68S3B CRON[16562]: pam_unix(cron:session): session opened for user edge by (uid=0)
+бер 01 09:05:01 edge-N68S3B CRON[16563]: (edge) CMD (curl http://www.films.loc/cron/PUUXD3jI0OZBrsmpsqW3YssSai1son8lmkmE38cqW7yYL47aIBe25GHNDhnRwMisHsAn_3fPcw)
+бер 01 09:05:01 edge-N68S3B CRON[16562]: (CRON) info (No MTA installed, discarding output)
+бер 01 09:05:01 edge-N68S3B CRON[16562]: pam_unix(cron:session): session closed for user edge
+бер 01 09:08:21 edge-N68S3B systemd[1]: Started CUPS Scheduler.
+-- Subject: Unit cups.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 09:09:01 edge-N68S3B CRON[16668]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 09:09:01 edge-N68S3B CRON[16669]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+бер 01 09:09:01 edge-N68S3B CRON[16668]: pam_unix(cron:session): session closed for user root
+бер 01 09:09:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+бер 01 09:09:38 edge-N68S3B sessionclean[16671]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+бер 01 09:09:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 09:10:01 edge-N68S3B CRON[16730]: pam_unix(cron:session): session opened for user edge by (uid=0)
+бер 01 09:10:01 edge-N68S3B CRON[16731]: (edge) CMD (curl http://www.learn.loc/cron/6WIRz4G0PcR2xYuaL0e3rYPG9-XyH31w_34NW1b8Icm4L0W5pWcLIg7DLpBxjmSUcBvpg7_G4Q)
+бер 01 09:10:01 edge-N68S3B CRON[16730]: (CRON) info (No MTA installed, discarding output)
+бер 01 09:10:01 edge-N68S3B CRON[16730]: pam_unix(cron:session): session closed for user edge
+бер 01 09:17:01 edge-N68S3B CRON[17009]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 09:17:01 edge-N68S3B CRON[17010]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+бер 01 09:17:01 edge-N68S3B CRON[17009]: pam_unix(cron:session): session closed for user root
+бер 01 09:23:23 edge-N68S3B gnome-session[2084]: (soffice:32545): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+бер 01 09:23:26 edge-N68S3B gnome-session[2084]: ** (soffice:32545): WARNING **: Invalidate all children called
+бер 01 09:24:15 edge-N68S3B kernel: br-9fc66e05b1bd: port 4(veth77fdcb6) entered disabled state
+бер 01 09:24:15 edge-N68S3B kernel: veth5976678: renamed from eth0
+бер 01 09:24:15 edge-N68S3B NetworkManager[845]: <info>  [1488353055.9117] device (veth77fdcb6): link disconnected
+бер 01 09:24:15 edge-N68S3B NetworkManager[845]: [0;1;39m<warn>  [1488353055.9212] device (veth5976678): failed to find device 49 'veth5976678' with udev[0m
+бер 01 09:24:15 edge-N68S3B NetworkManager[845]: <info>  [1488353055.9300] manager: (veth5976678): new Veth device (/org/freedesktop/NetworkManager/Devices/62)
+бер 01 09:24:15 edge-N68S3B kernel: br-9fc66e05b1bd: port 4(veth77fdcb6) entered disabled state
+бер 01 09:24:15 edge-N68S3B kernel: device veth77fdcb6 left promiscuous mode
+бер 01 09:24:15 edge-N68S3B kernel: br-9fc66e05b1bd: port 4(veth77fdcb6) entered disabled state
+бер 01 09:24:15 edge-N68S3B avahi-daemon[765]: Interface veth77fdcb6.IPv6 no longer relevant for mDNS.
+бер 01 09:24:15 edge-N68S3B avahi-daemon[765]: Leaving mDNS multicast group on interface veth77fdcb6.IPv6 with address fe80::3031:f8ff:fe3d:3dbf.
+бер 01 09:24:15 edge-N68S3B NetworkManager[845]: <info>  [1488353055.9661] device (veth5976678): driver 'veth' does not support carrier detection.
+бер 01 09:24:15 edge-N68S3B avahi-daemon[765]: Withdrawing address record for fe80::3031:f8ff:fe3d:3dbf on veth77fdcb6.
+бер 01 09:24:15 edge-N68S3B NetworkManager[845]: <info>  [1488353055.9672] device (veth77fdcb6): driver 'veth' does not support carrier detection.
+бер 01 09:24:15 edge-N68S3B NetworkManager[845]: <info>  [1488353055.9758] devices removed (path: /sys/devices/virtual/net/veth77fdcb6, iface: veth77fdcb6)
+бер 01 09:24:16 edge-N68S3B NetworkManager[845]: <info>  [1488353056.0262] devices added (path: /sys/devices/virtual/net/veth5976678, iface: veth5976678)
+бер 01 09:24:16 edge-N68S3B NetworkManager[845]: <info>  [1488353056.0262] device added (path: /sys/devices/virtual/net/veth5976678, iface: veth5976678): no ifupdown configuration found.
+бер 01 09:24:16 edge-N68S3B NetworkManager[845]: <info>  [1488353056.0288] devices removed (path: /sys/devices/virtual/net/veth5976678, iface: veth5976678)
+бер 01 09:24:19 edge-N68S3B kernel: br-9fc66e05b1bd: port 2(veth1915cd8) entered disabled state
+бер 01 09:24:19 edge-N68S3B kernel: veth427fcbb: renamed from eth0
+бер 01 09:24:19 edge-N68S3B NetworkManager[845]: <info>  [1488353059.1812] device (veth1915cd8): link disconnected
+бер 01 09:24:19 edge-N68S3B NetworkManager[845]: [0;1;39m<warn>  [1488353059.2009] device (veth427fcbb): failed to find device 45 'veth427fcbb' with udev[0m
+бер 01 09:24:19 edge-N68S3B NetworkManager[845]: <info>  [1488353059.2026] manager: (veth427fcbb): new Veth device (/org/freedesktop/NetworkManager/Devices/63)
+бер 01 09:24:19 edge-N68S3B NetworkManager[845]: <info>  [1488353059.2173] devices added (path: /sys/devices/virtual/net/veth427fcbb, iface: veth427fcbb)
+бер 01 09:24:19 edge-N68S3B NetworkManager[845]: <info>  [1488353059.2173] device added (path: /sys/devices/virtual/net/veth427fcbb, iface: veth427fcbb): no ifupdown configuration found.
+бер 01 09:24:19 edge-N68S3B kernel: br-9fc66e05b1bd: port 2(veth1915cd8) entered disabled state
+бер 01 09:24:19 edge-N68S3B avahi-daemon[765]: Interface veth1915cd8.IPv6 no longer relevant for mDNS.
+бер 01 09:24:19 edge-N68S3B avahi-daemon[765]: Leaving mDNS multicast group on interface veth1915cd8.IPv6 with address fe80::807f:b4ff:fea6:aff2.
+бер 01 09:24:19 edge-N68S3B kernel: device veth1915cd8 left promiscuous mode
+бер 01 09:24:19 edge-N68S3B kernel: br-9fc66e05b1bd: port 2(veth1915cd8) entered disabled state
+бер 01 09:24:19 edge-N68S3B avahi-daemon[765]: Withdrawing address record for fe80::807f:b4ff:fea6:aff2 on veth1915cd8.
+бер 01 09:24:19 edge-N68S3B NetworkManager[845]: <info>  [1488353059.2455] devices removed (path: /sys/devices/virtual/net/veth427fcbb, iface: veth427fcbb)
+бер 01 09:24:19 edge-N68S3B NetworkManager[845]: <info>  [1488353059.2466] device (veth427fcbb): driver 'veth' does not support carrier detection.
+бер 01 09:24:19 edge-N68S3B NetworkManager[845]: <info>  [1488353059.2469] device (veth1915cd8): driver 'veth' does not support carrier detection.
+бер 01 09:24:19 edge-N68S3B NetworkManager[845]: <info>  [1488353059.2508] devices removed (path: /sys/devices/virtual/net/veth1915cd8, iface: veth1915cd8)
+бер 01 09:24:23 edge-N68S3B kernel: br-9fc66e05b1bd: port 1(vethbc83716) entered disabled state
+бер 01 09:24:23 edge-N68S3B NetworkManager[845]: <info>  [1488353063.9285] device (vethbc83716): link disconnected
+бер 01 09:24:23 edge-N68S3B kernel: veth7bfb9c8: renamed from eth0
+бер 01 09:24:23 edge-N68S3B NetworkManager[845]: [0;1;39m<warn>  [1488353063.9602] device (veth7bfb9c8): failed to find device 43 'veth7bfb9c8' with udev[0m
+бер 01 09:24:23 edge-N68S3B NetworkManager[845]: <info>  [1488353063.9620] manager: (veth7bfb9c8): new Veth device (/org/freedesktop/NetworkManager/Devices/64)
+бер 01 09:24:23 edge-N68S3B avahi-daemon[765]: Interface vethbc83716.IPv6 no longer relevant for mDNS.
+бер 01 09:24:23 edge-N68S3B kernel: br-9fc66e05b1bd: port 1(vethbc83716) entered disabled state
+бер 01 09:24:23 edge-N68S3B avahi-daemon[765]: Leaving mDNS multicast group on interface vethbc83716.IPv6 with address fe80::8b9:43ff:fe2a:804.
+бер 01 09:24:23 edge-N68S3B kernel: device vethbc83716 left promiscuous mode
+бер 01 09:24:23 edge-N68S3B kernel: br-9fc66e05b1bd: port 1(vethbc83716) entered disabled state
+бер 01 09:24:23 edge-N68S3B avahi-daemon[765]: Withdrawing address record for fe80::8b9:43ff:fe2a:804 on vethbc83716.
+бер 01 09:24:23 edge-N68S3B NetworkManager[845]: <info>  [1488353063.9973] devices added (path: /sys/devices/virtual/net/veth7bfb9c8, iface: veth7bfb9c8)
+бер 01 09:24:23 edge-N68S3B NetworkManager[845]: <info>  [1488353063.9973] device added (path: /sys/devices/virtual/net/veth7bfb9c8, iface: veth7bfb9c8): no ifupdown configuration found.
+бер 01 09:24:23 edge-N68S3B NetworkManager[845]: <info>  [1488353063.9977] devices removed (path: /sys/devices/virtual/net/veth7bfb9c8, iface: veth7bfb9c8)
+бер 01 09:24:23 edge-N68S3B NetworkManager[845]: <info>  [1488353063.9982] device (veth7bfb9c8): driver 'veth' does not support carrier detection.
+бер 01 09:24:23 edge-N68S3B NetworkManager[845]: <info>  [1488353063.9984] device (vethbc83716): driver 'veth' does not support carrier detection.
+бер 01 09:24:24 edge-N68S3B NetworkManager[845]: <info>  [1488353064.0042] devices removed (path: /sys/devices/virtual/net/vethbc83716, iface: vethbc83716)
+бер 01 09:24:26 edge-N68S3B dockerd[991]: time="2017-03-01T09:24:26.155342061+02:00" level=info msg="Container 26d6cd7ea5ba075708e0f0023c841b3184073fb5b508f4409138c454979c470e failed to exit within 10 seconds of signal 15 - using the force"
+бер 01 09:24:26 edge-N68S3B kernel: br-9fc66e05b1bd: port 3(vethc421913) entered disabled state
+бер 01 09:24:26 edge-N68S3B kernel: veth821cbc9: renamed from eth0
+бер 01 09:24:26 edge-N68S3B NetworkManager[845]: <info>  [1488353066.2655] device (vethc421913): link disconnected
+бер 01 09:24:26 edge-N68S3B NetworkManager[845]: <info>  [1488353066.2656] device (br-9fc66e05b1bd): link disconnected (deferring action for 4 seconds)
+бер 01 09:24:26 edge-N68S3B NetworkManager[845]: [0;1;39m<warn>  [1488353066.3005] device (veth821cbc9): failed to find device 47 'veth821cbc9' with udev[0m
+бер 01 09:24:26 edge-N68S3B NetworkManager[845]: <info>  [1488353066.3020] manager: (veth821cbc9): new Veth device (/org/freedesktop/NetworkManager/Devices/65)
+бер 01 09:24:26 edge-N68S3B NetworkManager[845]: <info>  [1488353066.3123] devices added (path: /sys/devices/virtual/net/veth821cbc9, iface: veth821cbc9)
+бер 01 09:24:26 edge-N68S3B NetworkManager[845]: <info>  [1488353066.3123] device added (path: /sys/devices/virtual/net/veth821cbc9, iface: veth821cbc9): no ifupdown configuration found.
+бер 01 09:24:26 edge-N68S3B avahi-daemon[765]: Interface vethc421913.IPv6 no longer relevant for mDNS.
+бер 01 09:24:26 edge-N68S3B avahi-daemon[765]: Leaving mDNS multicast group on interface vethc421913.IPv6 with address fe80::c848:6dff:fe4d:1377.
+бер 01 09:24:26 edge-N68S3B kernel: br-9fc66e05b1bd: port 3(vethc421913) entered disabled state
+бер 01 09:24:26 edge-N68S3B kernel: device vethc421913 left promiscuous mode
+бер 01 09:24:26 edge-N68S3B kernel: br-9fc66e05b1bd: port 3(vethc421913) entered disabled state
+бер 01 09:24:26 edge-N68S3B avahi-daemon[765]: Withdrawing address record for fe80::c848:6dff:fe4d:1377 on vethc421913.
+бер 01 09:24:26 edge-N68S3B NetworkManager[845]: <info>  [1488353066.3409] devices removed (path: /sys/devices/virtual/net/veth821cbc9, iface: veth821cbc9)
+бер 01 09:24:26 edge-N68S3B NetworkManager[845]: <info>  [1488353066.3416] device (veth821cbc9): driver 'veth' does not support carrier detection.
+бер 01 09:24:26 edge-N68S3B NetworkManager[845]: <info>  [1488353066.3418] device (vethc421913): driver 'veth' does not support carrier detection.
+бер 01 09:24:26 edge-N68S3B NetworkManager[845]: <info>  [1488353066.3465] devices removed (path: /sys/devices/virtual/net/vethc421913, iface: vethc421913)
+бер 01 09:24:30 edge-N68S3B NetworkManager[845]: <info>  [1488353070.2917] device (br-9fc66e05b1bd): link disconnected (calling deferred action)
+бер 01 09:25:09 edge-N68S3B kernel: [0;1;39maufs au_opts_verify:1597:dockerd[6596]: dirperm1 breaks the protection by the permission bits on the lower branch[0m
+бер 01 09:25:10 edge-N68S3B kernel: device veth6cd0757 entered promiscuous mode
+бер 01 09:25:10 edge-N68S3B kernel: IPv6: ADDRCONF(NETDEV_UP): veth6cd0757: link is not ready
+бер 01 09:25:10 edge-N68S3B kernel: [0;1;39maufs au_opts_verify:1597:dockerd[1275]: dirperm1 breaks the protection by the permission bits on the lower branch[0m
+бер 01 09:25:10 edge-N68S3B kernel: device vethaab7a8d entered promiscuous mode
+бер 01 09:25:10 edge-N68S3B kernel: IPv6: ADDRCONF(NETDEV_UP): vethaab7a8d: link is not ready
+бер 01 09:25:10 edge-N68S3B kernel: br-9fc66e05b1bd: port 2(vethaab7a8d) entered forwarding state
+бер 01 09:25:10 edge-N68S3B kernel: br-9fc66e05b1bd: port 2(vethaab7a8d) entered forwarding state
+бер 01 09:25:10 edge-N68S3B kernel: br-9fc66e05b1bd: port 2(vethaab7a8d) entered disabled state
+бер 01 09:25:10 edge-N68S3B systemd-udevd[17575]: [0;1;39mCould not generate persistent MAC address for veth429e279: No such file or directory[0m
+бер 01 09:25:10 edge-N68S3B systemd-udevd[17577]: [0;1;39mCould not generate persistent MAC address for vethaab7a8d: No such file or directory[0m
+бер 01 09:25:10 edge-N68S3B systemd-udevd[17574]: [0;1;39mCould not generate persistent MAC address for veth6cd0757: No such file or directory[0m
+бер 01 09:25:10 edge-N68S3B NetworkManager[845]: [0;1;39m<warn>  [1488353110.0219] device (vethdad30eb): failed to find device 51 'vethdad30eb' with udev[0m
+бер 01 09:25:10 edge-N68S3B systemd-udevd[17573]: [0;1;39mCould not generate persistent MAC address for vethdad30eb: No such file or directory[0m
+бер 01 09:25:10 edge-N68S3B NetworkManager[845]: <info>  [1488353110.0643] manager: (vethdad30eb): new Veth device (/org/freedesktop/NetworkManager/Devices/66)
+бер 01 09:25:10 edge-N68S3B NetworkManager[845]: [0;1;39m<warn>  [1488353110.0805] device (veth6cd0757): failed to find device 52 'veth6cd0757' with udev[0m
+бер 01 09:25:10 edge-N68S3B NetworkManager[845]: <info>  [1488353110.0821] manager: (veth6cd0757): new Veth device (/org/freedesktop/NetworkManager/Devices/67)
+бер 01 09:25:10 edge-N68S3B kernel: [0;1;39maufs au_opts_verify:1597:dockerd[7194]: dirperm1 breaks the protection by the permission bits on the lower branch[0m
+бер 01 09:25:10 edge-N68S3B NetworkManager[845]: [0;1;39m<warn>  [1488353110.0858] device (veth429e279): failed to find device 53 'veth429e279' with udev[0m
+бер 01 09:25:10 edge-N68S3B NetworkManager[845]: <info>  [1488353110.0866] manager: (veth429e279): new Veth device (/org/freedesktop/NetworkManager/Devices/68)
+бер 01 09:25:10 edge-N68S3B NetworkManager[845]: [0;1;39m<warn>  [1488353110.0869] device (vethaab7a8d): failed to find device 54 'vethaab7a8d' with udev[0m
+бер 01 09:25:10 edge-N68S3B NetworkManager[845]: <info>  [1488353110.0876] manager: (vethaab7a8d): new Veth device (/org/freedesktop/NetworkManager/Devices/69)
+бер 01 09:25:10 edge-N68S3B NetworkManager[845]: <info>  [1488353110.1094] devices added (path: /sys/devices/virtual/net/veth429e279, iface: veth429e279)
+бер 01 09:25:10 edge-N68S3B NetworkManager[845]: <info>  [1488353110.1094] device added (path: /sys/devices/virtual/net/veth429e279, iface: veth429e279): no ifupdown configuration found.
+бер 01 09:25:10 edge-N68S3B NetworkManager[845]: <info>  [1488353110.1131] devices added (path: /sys/devices/virtual/net/vethdad30eb, iface: vethdad30eb)
+бер 01 09:25:10 edge-N68S3B NetworkManager[845]: <info>  [1488353110.1131] device added (path: /sys/devices/virtual/net/vethdad30eb, iface: vethdad30eb): no ifupdown configuration found.
+бер 01 09:25:10 edge-N68S3B NetworkManager[845]: <info>  [1488353110.1135] devices added (path: /sys/devices/virtual/net/vethaab7a8d, iface: vethaab7a8d)
+бер 01 09:25:10 edge-N68S3B NetworkManager[845]: <info>  [1488353110.1135] device added (path: /sys/devices/virtual/net/vethaab7a8d, iface: vethaab7a8d): no ifupdown configuration found.
+бер 01 09:25:10 edge-N68S3B NetworkManager[845]: <info>  [1488353110.1175] devices added (path: /sys/devices/virtual/net/veth6cd0757, iface: veth6cd0757)
+бер 01 09:25:10 edge-N68S3B NetworkManager[845]: <info>  [1488353110.1176] device added (path: /sys/devices/virtual/net/veth6cd0757, iface: veth6cd0757): no ifupdown configuration found.
+бер 01 09:25:10 edge-N68S3B NetworkManager[845]: [0;1;39m<warn>  [1488353110.1362] device (vetha63fa5a): failed to find device 55 'vetha63fa5a' with udev[0m
+бер 01 09:25:10 edge-N68S3B kernel: device veth2306ce3 entered promiscuous mode
+бер 01 09:25:10 edge-N68S3B kernel: IPv6: ADDRCONF(NETDEV_UP): veth2306ce3: link is not ready
+бер 01 09:25:10 edge-N68S3B kernel: br-9fc66e05b1bd: port 3(veth2306ce3) entered forwarding state
+бер 01 09:25:10 edge-N68S3B kernel: br-9fc66e05b1bd: port 3(veth2306ce3) entered forwarding state
+бер 01 09:25:10 edge-N68S3B kernel: br-9fc66e05b1bd: port 3(veth2306ce3) entered disabled state
+бер 01 09:25:10 edge-N68S3B systemd-udevd[17603]: [0;1;39mCould not generate persistent MAC address for veth2306ce3: No such file or directory[0m
+бер 01 09:25:10 edge-N68S3B NetworkManager[845]: <info>  [1488353110.1400] manager: (vetha63fa5a): new Veth device (/org/freedesktop/NetworkManager/Devices/70)
+бер 01 09:25:10 edge-N68S3B NetworkManager[845]: [0;1;39m<warn>  [1488353110.1404] device (veth2306ce3): failed to find device 56 'veth2306ce3' with udev[0m
+бер 01 09:25:10 edge-N68S3B NetworkManager[845]: <info>  [1488353110.1412] manager: (veth2306ce3): new Veth device (/org/freedesktop/NetworkManager/Devices/71)
+бер 01 09:25:10 edge-N68S3B systemd-udevd[17602]: [0;1;39mCould not generate persistent MAC address for vetha63fa5a: No such file or directory[0m
+бер 01 09:25:10 edge-N68S3B dockerd[991]: time="2017-03-01T09:25:10.146961153+02:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+бер 01 09:25:10 edge-N68S3B dockerd[991]: time="2017-03-01T09:25:10.147011319+02:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+бер 01 09:25:10 edge-N68S3B NetworkManager[845]: <info>  [1488353110.1555] devices added (path: /sys/devices/virtual/net/veth2306ce3, iface: veth2306ce3)
+бер 01 09:25:10 edge-N68S3B NetworkManager[845]: <info>  [1488353110.1573] device added (path: /sys/devices/virtual/net/veth2306ce3, iface: veth2306ce3): no ifupdown configuration found.
+бер 01 09:25:10 edge-N68S3B NetworkManager[845]: <info>  [1488353110.1607] devices added (path: /sys/devices/virtual/net/vetha63fa5a, iface: vetha63fa5a)
+бер 01 09:25:10 edge-N68S3B NetworkManager[845]: <info>  [1488353110.1610] device added (path: /sys/devices/virtual/net/vetha63fa5a, iface: vetha63fa5a): no ifupdown configuration found.
+бер 01 09:25:10 edge-N68S3B dockerd[991]: time="2017-03-01T09:25:10.191443904+02:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+бер 01 09:25:10 edge-N68S3B dockerd[991]: time="2017-03-01T09:25:10.191475831+02:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+бер 01 09:25:10 edge-N68S3B dockerd[991]: time="2017-03-01T09:25:10.200775980+02:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+бер 01 09:25:10 edge-N68S3B dockerd[991]: time="2017-03-01T09:25:10.201109741+02:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+бер 01 09:25:10 edge-N68S3B dockerd[991]: time="2017-03-01T09:25:10+02:00" level=info msg="Firewalld running: false"
+бер 01 09:25:10 edge-N68S3B dockerd[991]: time="2017-03-01T09:25:10+02:00" level=info msg="Firewalld running: false"
+бер 01 09:25:10 edge-N68S3B dockerd[991]: time="2017-03-01T09:25:10+02:00" level=info msg="Firewalld running: false"
+бер 01 09:25:10 edge-N68S3B NetworkManager[845]: <info>  [1488353110.6903] devices removed (path: /sys/devices/virtual/net/veth429e279, iface: veth429e279)
+бер 01 09:25:10 edge-N68S3B NetworkManager[845]: <info>  [1488353110.6904] device (veth429e279): driver 'veth' does not support carrier detection.
+бер 01 09:25:10 edge-N68S3B kernel: eth0: renamed from veth429e279
+бер 01 09:25:10 edge-N68S3B NetworkManager[845]: <info>  [1488353110.7182] device (vethaab7a8d): link connected
+бер 01 09:25:10 edge-N68S3B NetworkManager[845]: <info>  [1488353110.7183] device (br-9fc66e05b1bd): link connected
+бер 01 09:25:10 edge-N68S3B kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethaab7a8d: link becomes ready
+бер 01 09:25:10 edge-N68S3B kernel: br-9fc66e05b1bd: port 2(vethaab7a8d) entered forwarding state
+бер 01 09:25:10 edge-N68S3B kernel: br-9fc66e05b1bd: port 2(vethaab7a8d) entered forwarding state
+бер 01 09:25:11 edge-N68S3B kernel: eth0: renamed from vethdad30eb
+бер 01 09:25:11 edge-N68S3B NetworkManager[845]: <info>  [1488353111.6892] devices removed (path: /sys/devices/virtual/net/vethdad30eb, iface: vethdad30eb)
+бер 01 09:25:11 edge-N68S3B kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth6cd0757: link becomes ready
+бер 01 09:25:11 edge-N68S3B kernel: br-9fc66e05b1bd: port 1(veth6cd0757) entered forwarding state
+бер 01 09:25:11 edge-N68S3B kernel: br-9fc66e05b1bd: port 1(veth6cd0757) entered forwarding state
+бер 01 09:25:11 edge-N68S3B NetworkManager[845]: <info>  [1488353111.6892] device (vethdad30eb): driver 'veth' does not support carrier detection.
+бер 01 09:25:11 edge-N68S3B NetworkManager[845]: <info>  [1488353111.6895] device (veth6cd0757): link connected
+бер 01 09:25:11 edge-N68S3B kernel: eth0: renamed from vetha63fa5a
+бер 01 09:25:11 edge-N68S3B kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth2306ce3: link becomes ready
+бер 01 09:25:11 edge-N68S3B kernel: br-9fc66e05b1bd: port 3(veth2306ce3) entered forwarding state
+бер 01 09:25:11 edge-N68S3B kernel: br-9fc66e05b1bd: port 3(veth2306ce3) entered forwarding state
+бер 01 09:25:11 edge-N68S3B NetworkManager[845]: <info>  [1488353111.7404] devices removed (path: /sys/devices/virtual/net/vetha63fa5a, iface: vetha63fa5a)
+бер 01 09:25:11 edge-N68S3B NetworkManager[845]: <info>  [1488353111.7404] device (vetha63fa5a): driver 'veth' does not support carrier detection.
+бер 01 09:25:11 edge-N68S3B NetworkManager[845]: <info>  [1488353111.7407] device (veth2306ce3): link connected
+бер 01 09:25:11 edge-N68S3B kernel: [0;1;39maufs au_opts_verify:1597:dockerd[7263]: dirperm1 breaks the protection by the permission bits on the lower branch[0m
+бер 01 09:25:11 edge-N68S3B kernel: device veth055e99c entered promiscuous mode
+бер 01 09:25:11 edge-N68S3B kernel: IPv6: ADDRCONF(NETDEV_UP): veth055e99c: link is not ready
+бер 01 09:25:11 edge-N68S3B kernel: br-9fc66e05b1bd: port 4(veth055e99c) entered forwarding state
+бер 01 09:25:11 edge-N68S3B kernel: br-9fc66e05b1bd: port 4(veth055e99c) entered forwarding state
+бер 01 09:25:11 edge-N68S3B systemd-udevd[17918]: [0;1;39mCould not generate persistent MAC address for veth055e99c: No such file or directory[0m
+бер 01 09:25:11 edge-N68S3B NetworkManager[845]: [0;1;39m<warn>  [1488353111.9082] device (vethb5fbe7f): failed to find device 57 'vethb5fbe7f' with udev[0m
+бер 01 09:25:11 edge-N68S3B NetworkManager[845]: <info>  [1488353111.9096] manager: (vethb5fbe7f): new Veth device (/org/freedesktop/NetworkManager/Devices/72)
+бер 01 09:25:11 edge-N68S3B NetworkManager[845]: [0;1;39m<warn>  [1488353111.9099] device (veth055e99c): failed to find device 58 'veth055e99c' with udev[0m
+бер 01 09:25:11 edge-N68S3B systemd-udevd[17917]: [0;1;39mCould not generate persistent MAC address for vethb5fbe7f: No such file or directory[0m
+бер 01 09:25:11 edge-N68S3B NetworkManager[845]: <info>  [1488353111.9148] manager: (veth055e99c): new Veth device (/org/freedesktop/NetworkManager/Devices/73)
+бер 01 09:25:11 edge-N68S3B dockerd[991]: time="2017-03-01T09:25:11.920541279+02:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+бер 01 09:25:11 edge-N68S3B dockerd[991]: time="2017-03-01T09:25:11.920580636+02:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+бер 01 09:25:11 edge-N68S3B NetworkManager[845]: <info>  [1488353111.9523] devices added (path: /sys/devices/virtual/net/vethb5fbe7f, iface: vethb5fbe7f)
+бер 01 09:25:11 edge-N68S3B NetworkManager[845]: <info>  [1488353111.9523] device added (path: /sys/devices/virtual/net/vethb5fbe7f, iface: vethb5fbe7f): no ifupdown configuration found.
+бер 01 09:25:11 edge-N68S3B NetworkManager[845]: <info>  [1488353111.9542] devices added (path: /sys/devices/virtual/net/veth055e99c, iface: veth055e99c)
+бер 01 09:25:11 edge-N68S3B NetworkManager[845]: <info>  [1488353111.9542] device added (path: /sys/devices/virtual/net/veth055e99c, iface: veth055e99c): no ifupdown configuration found.
+бер 01 09:25:12 edge-N68S3B kernel: br-9fc66e05b1bd: port 4(veth055e99c) entered disabled state
+бер 01 09:25:12 edge-N68S3B dockerd[991]: time="2017-03-01T09:25:12+02:00" level=info msg="Firewalld running: false"
+бер 01 09:25:12 edge-N68S3B NetworkManager[845]: <info>  [1488353112.2486] device (vethb5fbe7f): driver 'veth' does not support carrier detection.
+бер 01 09:25:12 edge-N68S3B NetworkManager[845]: <info>  [1488353112.2498] devices removed (path: /sys/devices/virtual/net/vethb5fbe7f, iface: vethb5fbe7f)
+бер 01 09:25:12 edge-N68S3B kernel: eth0: renamed from vethb5fbe7f
+бер 01 09:25:12 edge-N68S3B kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth055e99c: link becomes ready
+бер 01 09:25:12 edge-N68S3B kernel: br-9fc66e05b1bd: port 4(veth055e99c) entered forwarding state
+бер 01 09:25:12 edge-N68S3B kernel: br-9fc66e05b1bd: port 4(veth055e99c) entered forwarding state
+бер 01 09:25:12 edge-N68S3B NetworkManager[845]: <info>  [1488353112.2802] device (veth055e99c): link connected
+бер 01 09:25:12 edge-N68S3B avahi-daemon[765]: Joining mDNS multicast group on interface vethaab7a8d.IPv6 with address fe80::2cb9:46ff:fec6:7ab2.
+бер 01 09:25:12 edge-N68S3B avahi-daemon[765]: New relevant interface vethaab7a8d.IPv6 for mDNS.
+бер 01 09:25:12 edge-N68S3B avahi-daemon[765]: Registering new address record for fe80::2cb9:46ff:fec6:7ab2 on vethaab7a8d.*.
+бер 01 09:25:12 edge-N68S3B avahi-daemon[765]: Joining mDNS multicast group on interface veth2306ce3.IPv6 with address fe80::c8e9:2aff:fe3a:5081.
+бер 01 09:25:12 edge-N68S3B avahi-daemon[765]: New relevant interface veth2306ce3.IPv6 for mDNS.
+бер 01 09:25:12 edge-N68S3B avahi-daemon[765]: Registering new address record for fe80::c8e9:2aff:fe3a:5081 on veth2306ce3.*.
+бер 01 09:25:13 edge-N68S3B avahi-daemon[765]: Joining mDNS multicast group on interface veth055e99c.IPv6 with address fe80::fcdc:c7ff:fe6a:12c.
+бер 01 09:25:13 edge-N68S3B avahi-daemon[765]: New relevant interface veth055e99c.IPv6 for mDNS.
+бер 01 09:25:13 edge-N68S3B avahi-daemon[765]: Registering new address record for fe80::fcdc:c7ff:fe6a:12c on veth055e99c.*.
+бер 01 09:25:13 edge-N68S3B avahi-daemon[765]: Joining mDNS multicast group on interface veth6cd0757.IPv6 with address fe80::b062:1ff:fe60:fa36.
+бер 01 09:25:13 edge-N68S3B avahi-daemon[765]: New relevant interface veth6cd0757.IPv6 for mDNS.
+бер 01 09:25:13 edge-N68S3B avahi-daemon[765]: Registering new address record for fe80::b062:1ff:fe60:fa36 on veth6cd0757.*.
+бер 01 09:25:25 edge-N68S3B kernel: br-9fc66e05b1bd: port 2(vethaab7a8d) entered forwarding state
+бер 01 09:25:26 edge-N68S3B kernel: br-9fc66e05b1bd: port 1(veth6cd0757) entered forwarding state
+бер 01 09:25:26 edge-N68S3B kernel: br-9fc66e05b1bd: port 3(veth2306ce3) entered forwarding state
+бер 01 09:25:27 edge-N68S3B kernel: br-9fc66e05b1bd: port 4(veth055e99c) entered forwarding state
+бер 01 09:26:41 edge-N68S3B systemd[1]: Starting Cleanup of Temporary Directories...
+-- Subject: Unit systemd-tmpfiles-clean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-clean.service has begun starting up.
+бер 01 09:26:41 edge-N68S3B systemd-tmpfiles[18609]: [0;1;39m[/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.[0m
+бер 01 09:26:41 edge-N68S3B systemd[1]: Started Cleanup of Temporary Directories.
+-- Subject: Unit systemd-tmpfiles-clean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-clean.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 09:39:01 edge-N68S3B CRON[20629]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 09:39:01 edge-N68S3B CRON[20630]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+бер 01 09:39:01 edge-N68S3B CRON[20629]: pam_unix(cron:session): session closed for user root
+бер 01 09:39:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+бер 01 09:39:38 edge-N68S3B sessionclean[20705]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+бер 01 09:39:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 10:05:01 edge-N68S3B CRON[25072]: pam_unix(cron:session): session opened for user edge by (uid=0)
+бер 01 10:05:01 edge-N68S3B CRON[25073]: (edge) CMD (curl http://www.films.loc/cron/PUUXD3jI0OZBrsmpsqW3YssSai1son8lmkmE38cqW7yYL47aIBe25GHNDhnRwMisHsAn_3fPcw)
+бер 01 10:05:02 edge-N68S3B CRON[25072]: (CRON) info (No MTA installed, discarding output)
+бер 01 10:05:02 edge-N68S3B CRON[25072]: pam_unix(cron:session): session closed for user edge
+бер 01 10:09:01 edge-N68S3B CRON[25678]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 10:09:01 edge-N68S3B CRON[25679]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+бер 01 10:09:01 edge-N68S3B CRON[25678]: pam_unix(cron:session): session closed for user root
+бер 01 10:09:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+бер 01 10:09:38 edge-N68S3B sessionclean[25760]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+бер 01 10:09:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 10:10:01 edge-N68S3B CRON[25875]: pam_unix(cron:session): session opened for user edge by (uid=0)
+бер 01 10:10:01 edge-N68S3B CRON[25876]: (edge) CMD (curl http://www.learn.loc/cron/6WIRz4G0PcR2xYuaL0e3rYPG9-XyH31w_34NW1b8Icm4L0W5pWcLIg7DLpBxjmSUcBvpg7_G4Q)
+бер 01 10:10:01 edge-N68S3B CRON[25875]: (CRON) info (No MTA installed, discarding output)
+бер 01 10:10:01 edge-N68S3B CRON[25875]: pam_unix(cron:session): session closed for user edge
+бер 01 10:10:21 edge-N68S3B org.gnome.evolution.dataserver.Sources5[1946]: [0;1;39m** (evolution-source-registry:2198): WARNING **: secret_service_search_sync: must specify at least one attribute to match[0m
+бер 01 10:17:01 edge-N68S3B CRON[27024]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 10:17:01 edge-N68S3B CRON[27025]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+бер 01 10:17:01 edge-N68S3B CRON[27024]: pam_unix(cron:session): session closed for user root
+бер 01 10:35:08 edge-N68S3B dhclient[1525]: DHCPREQUEST of 10.10.0.91 on enp3s0 to 10.10.1.2 port 67 (xid=0x2c06f7bc)
+бер 01 10:35:08 edge-N68S3B dhclient[1525]: DHCPACK of 10.10.0.91 from 10.10.1.2
+бер 01 10:35:08 edge-N68S3B dhclient[1525]: bound to 10.10.0.91 -- renewal in 14338 seconds.
+бер 01 10:35:08 edge-N68S3B NetworkManager[845]: <info>  [1488357308.9231]   address 10.10.0.91
+бер 01 10:35:08 edge-N68S3B NetworkManager[845]: <info>  [1488357308.9232]   plen 24 (255.255.255.0)
+бер 01 10:35:08 edge-N68S3B NetworkManager[845]: <info>  [1488357308.9241]   gateway 10.10.0.1
+бер 01 10:35:08 edge-N68S3B NetworkManager[845]: <info>  [1488357308.9242]   server identifier 10.10.1.2
+бер 01 10:35:08 edge-N68S3B NetworkManager[845]: <info>  [1488357308.9242]   lease time 36000
+бер 01 10:35:08 edge-N68S3B NetworkManager[845]: <info>  [1488357308.9242]   nameserver '10.10.0.1'
+бер 01 10:35:08 edge-N68S3B NetworkManager[845]: <info>  [1488357308.9242]   domain name 'local.drupalcompany.com'
+бер 01 10:35:08 edge-N68S3B NetworkManager[845]: <info>  [1488357308.9243]   wins '10.10.0.1'
+бер 01 10:35:08 edge-N68S3B NetworkManager[845]: <info>  [1488357308.9252] dhcp4 (enp3s0): state changed bound -> bound
+бер 01 10:35:08 edge-N68S3B dbus[792]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'[0m
+бер 01 10:35:08 edge-N68S3B systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: Unit NetworkManager-dispatcher.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-dispatcher.service has begun starting up.
+бер 01 10:35:08 edge-N68S3B dbus[792]: [0;1;39m[system] Successfully activated service 'org.freedesktop.nm_dispatcher'[0m
+бер 01 10:35:08 edge-N68S3B systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: Unit NetworkManager-dispatcher.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-dispatcher.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 10:35:08 edge-N68S3B nm-dispatcher[30344]: req:1 'dhcp4-change' [enp3s0]: new request (1 scripts)
+бер 01 10:35:08 edge-N68S3B nm-dispatcher[30344]: req:1 'dhcp4-change' [enp3s0]: start running ordered scripts...
+бер 01 10:39:01 edge-N68S3B CRON[31439]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 10:39:01 edge-N68S3B CRON[31441]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+бер 01 10:39:01 edge-N68S3B CRON[31439]: pam_unix(cron:session): session closed for user root
+бер 01 10:39:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+бер 01 10:39:38 edge-N68S3B sessionclean[31523]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+бер 01 10:39:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 10:43:32 edge-N68S3B compiz[2224]: gkr-pam: unlocked login keyring
+бер 01 10:49:14 edge-N68S3B org.gtk.vfs.Daemon[1946]: [0;1;39m** (process:29659): WARNING **: Couldn't create directory monitor on smb://x-gnome-default-workgroup/. Error: The specified location is not mounted[0m
+бер 01 10:49:22 edge-N68S3B org.gtk.vfs.Daemon[1946]: [0;1;39m** (process:29659): WARNING **: Couldn't create directory monitor on smb://x-gnome-default-workgroup/. Error: The specified location is not mounted[0m
+бер 01 11:05:01 edge-N68S3B CRON[3885]: pam_unix(cron:session): session opened for user edge by (uid=0)
+бер 01 11:05:01 edge-N68S3B CRON[3886]: (edge) CMD (curl http://www.films.loc/cron/PUUXD3jI0OZBrsmpsqW3YssSai1son8lmkmE38cqW7yYL47aIBe25GHNDhnRwMisHsAn_3fPcw)
+бер 01 11:05:01 edge-N68S3B CRON[3885]: (CRON) info (No MTA installed, discarding output)
+бер 01 11:05:01 edge-N68S3B CRON[3885]: pam_unix(cron:session): session closed for user edge
+бер 01 11:09:01 edge-N68S3B CRON[5003]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 11:09:01 edge-N68S3B CRON[5004]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+бер 01 11:09:01 edge-N68S3B CRON[5003]: pam_unix(cron:session): session closed for user root
+бер 01 11:09:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+бер 01 11:09:38 edge-N68S3B sessionclean[5162]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+бер 01 11:09:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 11:10:01 edge-N68S3B CRON[5334]: pam_unix(cron:session): session opened for user edge by (uid=0)
+бер 01 11:10:01 edge-N68S3B CRON[5335]: (edge) CMD (curl http://www.learn.loc/cron/6WIRz4G0PcR2xYuaL0e3rYPG9-XyH31w_34NW1b8Icm4L0W5pWcLIg7DLpBxjmSUcBvpg7_G4Q)
+бер 01 11:10:02 edge-N68S3B CRON[5334]: (CRON) info (No MTA installed, discarding output)
+бер 01 11:10:02 edge-N68S3B CRON[5334]: pam_unix(cron:session): session closed for user edge
+бер 01 11:17:01 edge-N68S3B CRON[6755]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 11:17:01 edge-N68S3B CRON[6756]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+бер 01 11:17:01 edge-N68S3B CRON[6755]: pam_unix(cron:session): session closed for user root
+бер 01 11:26:34 edge-N68S3B compiz[2224]: gkr-pam: unlocked login keyring
+бер 01 11:39:01 edge-N68S3B CRON[10379]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 11:39:01 edge-N68S3B CRON[10380]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+бер 01 11:39:01 edge-N68S3B CRON[10379]: pam_unix(cron:session): session closed for user root
+бер 01 11:39:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+бер 01 11:39:38 edge-N68S3B sessionclean[10465]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+бер 01 11:39:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 12:05:01 edge-N68S3B CRON[14586]: pam_unix(cron:session): session opened for user edge by (uid=0)
+бер 01 12:05:01 edge-N68S3B CRON[14587]: (edge) CMD (curl http://www.films.loc/cron/PUUXD3jI0OZBrsmpsqW3YssSai1son8lmkmE38cqW7yYL47aIBe25GHNDhnRwMisHsAn_3fPcw)
+бер 01 12:05:01 edge-N68S3B CRON[14586]: (CRON) info (No MTA installed, discarding output)
+бер 01 12:05:01 edge-N68S3B CRON[14586]: pam_unix(cron:session): session closed for user edge
+бер 01 12:09:01 edge-N68S3B CRON[15166]: pam_unix(cron:session): session opened for user root by (uid=0)
+бер 01 12:09:01 edge-N68S3B CRON[15167]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+бер 01 12:09:01 edge-N68S3B CRON[15166]: pam_unix(cron:session): session closed for user root
+бер 01 12:09:38 edge-N68S3B systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+бер 01 12:09:38 edge-N68S3B sessionclean[15260]: Failed loading /usr/lib/php/20151012/xdebug.so:  /usr/lib/php/20151012/xdebug.so: undefined symbol: zend_pass_function
+бер 01 12:09:38 edge-N68S3B systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is done.
+бер 01 12:10:01 edge-N68S3B CRON[15378]: pam_unix(cron:session): session opened for user edge by (uid=0)
+бер 01 12:10:01 edge-N68S3B CRON[15379]: (edge) CMD (curl http://www.learn.loc/cron/6WIRz4G0PcR2xYuaL0e3rYPG9-XyH31w_34NW1b8Icm4L0W5pWcLIg7DLpBxjmSUcBvpg7_G4Q)
+бер 01 12:10:02 edge-N68S3B CRON[15378]: (CRON) info (No MTA installed, discarding output)
+бер 01 12:10:02 edge-N68S3B CRON[15378]: pam_unix(cron:session): session closed for user edge
+бер 01 12:10:04 edge-N68S3B gnome-session[2084]: Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+бер 01 12:10:07 edge-N68S3B polkitd(authority=local)[890]: [0;1;39mOperator of unix-session:c2 successfully authenticated as unix-user:edge to gain ONE-SHOT authorization for action org.freedesktop.policykit.exec for unix-process:6667:120757 [/opt/sublime_text/sublime_text] (owned by unix-user:edge)[0m
+бер 01 12:10:07 edge-N68S3B pkexec[15385]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+бер 01 12:10:07 edge-N68S3B pkexec[15385]: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+бер 01 12:10:07 edge-N68S3B pkexec[15385]: [0;1;39medge: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/bin/cp /tmp/.subld93.tmp /etc/php/7.0/cli/php.ini][0m
+бер 01 12:10:31 edge-N68S3B sudo[15479]: [0;1;39m    edge : TTY=pts/6 ; PWD=/home/edge/docker_test/drupal ; USER=root ; COMMAND=/usr/sbin/service apache2 restart[0m
+бер 01 12:10:31 edge-N68S3B sudo[15479]: pam_unix(sudo:session): session opened for user root by (uid=0)
+бер 01 12:10:31 edge-N68S3B systemd[1]: Stopped LSB: Apache2 web server.
+-- Subject: Unit apache2.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apache2.service has finished shutting down.
+бер 01 12:10:31 edge-N68S3B systemd[1]: Starting LSB: Apache2 web server...
+-- Subject: Unit apache2.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apache2.service has begun starting up.
+бер 01 12:10:31 edge-N68S3B apache2[15491]:  * Starting Apache httpd web server apache2
+бер 01 12:10:31 edge-N68S3B apache2[15491]: AH00112: Warning: DocumentRoot [/var/www/drupal8] does not exist
+бер 01 12:10:31 edge-N68S3B apache2[15491]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+бер 01 12:10:31 edge-N68S3B apache2[15491]: (98)Address already in use: AH00072: make_sock: could not bind to address [::]:80
+бер 01 12:10:31 edge-N68S3B apache2[15491]: (98)Address already in use: AH00072: make_sock: could not bind to address 0.0.0.0:80
+бер 01 12:10:31 edge-N68S3B apache2[15491]: no listening sockets available, shutting down
+бер 01 12:10:31 edge-N68S3B apache2[15491]: AH00015: Unable to open logs
+бер 01 12:10:31 edge-N68S3B apache2[15491]: Action 'start' failed.
+бер 01 12:10:31 edge-N68S3B apache2[15491]: The Apache error log may have more information.
+бер 01 12:10:31 edge-N68S3B apache2[15491]:  *
+бер 01 12:10:31 edge-N68S3B apache2[15508]:  * Stopping Apache httpd web server apache2
+бер 01 12:10:31 edge-N68S3B apache2[15508]:  *
+бер 01 12:10:31 edge-N68S3B apache2[15508]:  * There are processes named 'apache2' running which do not match your pid file which are left untouched in the name of safety, Please review the situation by hand.
+бер 01 12:10:31 edge-N68S3B systemd[1]: [0;1;39mapache2.service: Control process exited, code=exited status=1[0m
+бер 01 12:10:31 edge-N68S3B systemd[1]: [0;1;31mFailed to start LSB: Apache2 web server.[0m
+-- Subject: Unit apache2.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apache2.service has failed.
+-- 
+-- The result is failed.
+бер 01 12:10:31 edge-N68S3B systemd[1]: [0;1;39mapache2.service: Unit entered failed state.[0m
+бер 01 12:10:31 edge-N68S3B sudo[15479]: pam_unix(sudo:session): session closed for user root
+бер 01 12:10:31 edge-N68S3B systemd[1]: [0;1;39mapache2.service: Failed with result 'exit-code'.[0m
+бер 01 12:11:31 edge-N68S3B gnome-session[2084]: Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+бер 01 12:11:36 edge-N68S3B polkitd(authority=local)[890]: [0;1;39mOperator of unix-session:c2 successfully authenticated as unix-user:edge to gain ONE-SHOT authorization for action org.freedesktop.policykit.exec for unix-process:6667:120757 [/opt/sublime_text/sublime_text] (owned by unix-user:edge)[0m
+бер 01 12:11:36 edge-N68S3B pkexec[15742]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+бер 01 12:11:36 edge-N68S3B pkexec[15742]: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+бер 01 12:11:36 edge-N68S3B pkexec[15742]: [0;1;39medge: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/bin/cp /tmp/.sublf7e.tmp /etc/php/7.0/cli/php.ini][0m
+бер 01 12:11:42 edge-N68S3B sudo[15761]: [0;1;39m    edge : TTY=pts/6 ; PWD=/home/edge/docker_test/drupal ; USER=root ; COMMAND=/usr/sbin/service apache2 restart[0m
+бер 01 12:11:42 edge-N68S3B sudo[15761]: pam_unix(sudo:session): session opened for user root by (uid=0)
+бер 01 12:11:42 edge-N68S3B systemd[1]: Stopped LSB: Apache2 web server.
+-- Subject: Unit apache2.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apache2.service has finished shutting down.
+бер 01 12:11:42 edge-N68S3B systemd[1]: Starting LSB: Apache2 web server...
+-- Subject: Unit apache2.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apache2.service has begun starting up.
+бер 01 12:11:42 edge-N68S3B apache2[15767]:  * Starting Apache httpd web server apache2
+бер 01 12:11:42 edge-N68S3B apache2[15767]: AH00112: Warning: DocumentRoot [/var/www/drupal8] does not exist
+бер 01 12:11:42 edge-N68S3B apache2[15767]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+бер 01 12:11:42 edge-N68S3B apache2[15767]: (98)Address already in use: AH00072: make_sock: could not bind to address [::]:80
+бер 01 12:11:42 edge-N68S3B apache2[15767]: (98)Address already in use: AH00072: make_sock: could not bind to address 0.0.0.0:80
+бер 01 12:11:42 edge-N68S3B apache2[15767]: no listening sockets available, shutting down
+бер 01 12:11:42 edge-N68S3B apache2[15767]: AH00015: Unable to open logs
+бер 01 12:11:43 edge-N68S3B apache2[15767]: Action 'start' failed.
+бер 01 12:11:43 edge-N68S3B apache2[15767]: The Apache error log may have more information.
+бер 01 12:11:43 edge-N68S3B apache2[15767]:  *
+бер 01 12:11:43 edge-N68S3B apache2[15784]:  * Stopping Apache httpd web server apache2
+бер 01 12:11:43 edge-N68S3B apache2[15784]:  *
+бер 01 12:11:43 edge-N68S3B apache2[15784]:  * There are processes named 'apache2' running which do not match your pid file which are left untouched in the name of safety, Please review the situation by hand.
+бер 01 12:11:43 edge-N68S3B systemd[1]: [0;1;39mapache2.service: Control process exited, code=exited status=1[0m
+бер 01 12:11:43 edge-N68S3B systemd[1]: [0;1;31mFailed to start LSB: Apache2 web server.[0m
+-- Subject: Unit apache2.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apache2.service has failed.
+-- 
+-- The result is failed.
+бер 01 12:11:43 edge-N68S3B systemd[1]: [0;1;39mapache2.service: Unit entered failed state.[0m
+бер 01 12:11:43 edge-N68S3B systemd[1]: [0;1;39mapache2.service: Failed with result 'exit-code'.[0m
+бер 01 12:11:43 edge-N68S3B sudo[15761]: pam_unix(sudo:session): session closed for user root
