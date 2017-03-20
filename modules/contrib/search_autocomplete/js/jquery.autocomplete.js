@@ -138,7 +138,7 @@
           data.push(noResult);
         }
       }
-
+      console.log(data);
       // Send the new string array of terms to the jQuery UI list.
       showSuggestions(data);
     }

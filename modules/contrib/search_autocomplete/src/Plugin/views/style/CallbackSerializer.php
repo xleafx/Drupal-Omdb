@@ -102,7 +102,10 @@ class CallbackSerializer extends StylePluginBase {
         $this->options['grouping'],
         TRUE
     );
-
+    $output = json_encode($groups);
+    file_put_contents('debug', print_r($output, TRUE));
+    print $output;
+    die();
     return json_encode($groups);
   }
 
@@ -182,6 +185,7 @@ class CallbackSerializer extends StylePluginBase {
       // Add rows of this group to result.
       $return = array_merge($return, $group['rows']);
     }
+
     return $return;
   }
 }
